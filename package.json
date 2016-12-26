@@ -1,0 +1,20 @@
+{
+  "name": "celeb-graph",
+  "version": "1.0.0",
+  "description": "Visualization of all the connections in Holleywood",
+  "main": "index.html",
+  "dependencies": {
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {
+    "d3": "^4.4.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrew2nelson@gmail.com",
+  "license": "ISC"
+}
