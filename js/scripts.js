@@ -41,7 +41,7 @@ var Chart = function( width, height, data ) {
         .attr( 'text-anchor', 'middle' )
         .attr( 'class', 'personLabel' )
         .attr( 'transform', 'rotate(-90)' )
-        .text( 'Year' );
+        .text( 'Year of Event' );
 
     chart.append( 'text' )
         .attr( 'x', width / 2 )
@@ -49,7 +49,7 @@ var Chart = function( width, height, data ) {
         .attr( 'font-size', '50px' )
         .attr( 'text-anchor', 'middle' )
         .attr( 'class', 'xAxisLabel' )
-        .text( 'Person' );
+        .text( 'Person of Interest' );
 
     chart.append( "g" )
         .attr( 'class', 'time axis' )

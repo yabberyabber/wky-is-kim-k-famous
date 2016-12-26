@@ -6,7 +6,7 @@ var dataset = {
             'summary': "Kim Kardashian is famous for some reason... I'm not really sure why"
         },
         {
-            'name': 'OJ',
+            'name': 'OJ Simpson',
             'born': 1947,
             "summary": "I think OJ played football in the 90's then killed his wife?"
         },
@@ -67,12 +67,12 @@ var dataset = {
         },
         {
             'date': 1994,
-            'parties': [ 'Robert Kardashian', 'OJ' ],
+            'parties': [ 'Robert Kardashian', 'OJ Simpson' ],
             'name': 'Robert Kardashian represents OJ Simpson in OJs murder case'
         },
         {
             'date': 1996,
-            'parties': [ 'OJ', 'Kim' ],
+            'parties': [ 'OJ Simpson', 'Kim' ],
             'name': 'OJ Stays in Kim\'s room to avoid the media during his trial'
         },
         {
