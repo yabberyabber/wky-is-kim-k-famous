@@ -134,7 +134,7 @@ var Chart = function( width, height, data ) {
             .on( 'mouseover', relTip.show )
             .on( 'mouseout', relTip.hide );
     relCircles.call( relTip );
-    console.log( "gonna do lines" );
+
     relations.selectAll( 'line.relHorizontal' )
         .data( function( rel, i ) {
             return [ { parties: rel.parties,
@@ -152,31 +152,10 @@ var Chart = function( width, height, data ) {
             .attr( 'x2', function( rel ) {
                 return Math.max.apply( null,
                                        rel.parties.map( personScale ) );
-            } )
-            ;
-
-    console.log( "done" );
-    this.setDaterange = function( startDate, endDate ) {
-        if ( startDate == time.start && endDate == time.end ) {
-            return;
-        }
-    };
-    this.setWidthHeight = function( _width, _height ) {
-        if ( _width == width && _height == height ) {
-            return;
-        }
-    };
+            } );
 };
 
 var chart;
 $(document).ready(function() {
     chart = new Chart( 900, 900, dataset );
-
-    $("#oops").mouseenter(function() {
-        $(this).attr("fill", "blue");
-    });
-
-    $("#oops").mouseleave(function() {
-        $(this).attr("fill", "yellow");
-    });
 });
