@@ -95,7 +95,7 @@ var Chart = function( width, height ) {
                 .attr( 'x', personBarXFunction )
                 .attr( 'y', personBarYFunction )
                 .attr( 'height', personBarHeightFunction )
-                .attr( 'width', min( personScale.rangeBand(), 20 ) )
+                .attr( 'width', Math.min( personScale.rangeBand(), 20 ) )
                 .on( 'mouseenter', personTip.show )
                 .on( 'mouseout', personTip.hide );
         people.exit().remove();
@@ -105,7 +105,7 @@ var Chart = function( width, height ) {
             .attr( 'x', personBarXFunction )
             .attr( 'y', personBarYFunction )
             .attr( 'height', personBarHeightFunction )
-            .attr( 'width', min( personScale.rangeBand(), 20 ) );
+            .attr( 'width', Math.min( personScale.rangeBand(), 20 ) );
 
         var getRelColor = function( idx ) {
             var colors = [ 'yellow', 'green', 'red', 'blue', 'orange' ];
@@ -192,7 +192,7 @@ var Chart = function( width, height ) {
 var chart;
 $(document).ready(function() {
     chart = new Chart( 900, 1200 )
-        .updateData( brandy );
+        .updateData( kim );
 
     d3.select( "#dataset-select" )
         .on( 'change', function() {
