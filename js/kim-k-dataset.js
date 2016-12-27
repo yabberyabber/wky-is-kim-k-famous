@@ -1,4 +1,4 @@
-var dataset = {
+var kim = {
     people: [
         {
             'name': 'Kim',
@@ -56,7 +56,7 @@ var dataset = {
             'name': 'Kris Jenner and Robert Kardashian divorce but remain friends'
         },
         {
-            'date': 1991,
+            'date': 1991.2,
             'parties': [ 'Kris Jenner', 'Caitlyn Jenner' ],
             'name': 'Kris Jenner and Cairlyn (at the time Bruce) Jenner marry 1 month after divorce'
         },
@@ -97,3 +97,6 @@ var dataset = {
         }
     ]
 };
+
+var datasets = datasets || {};
+datasets.kim = kim;

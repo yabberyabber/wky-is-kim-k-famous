@@ -1,4 +1,4 @@
-var Chart = function( width, height, data ) {
+var Chart = function( width, height ) {
     if ( width === undefined )
         width = 400;
     if ( height === undefined )
@@ -25,15 +25,9 @@ var Chart = function( width, height, data ) {
                      .scale( timeScale )
                      .tickFormat( d3.format( "   0" ) )
                      .orient( 'left' );
-
-    var personScale = d3.scale.ordinal()
-                        .domain( data.people.map( function( person ) {
-                           return person.name;
-                        } ) )
-                        .rangeRoundBands( [ 0, width ], 0.1 );
-    var personAxis = d3.svg.axis()
-                       .scale( personScale )
-                       .orient( 'bottom' );
+    chart.append( "g" )
+        .attr( 'class', 'time_axis' )
+        .call( timeAxis );
     chart.append( 'text' )
         .attr( 'x',  - width / 2 )
         .attr( 'y', 10 - margin.left / 2 )
@@ -43,6 +37,19 @@ var Chart = function( width, height, data ) {
         .attr( 'transform', 'rotate(-90)' )
         .text( 'Year of Event' );
 
+    var personScale = d3.scale.ordinal()
+                        .domain( [ 'No one has loaded yet :(' ] )
+                        .rangeRoundBands( [ 0, width ], 0.1 );
+    var personAxis = d3.svg.axis()
+                       .scale( personScale )
+                       .orient( 'bottom' );
+    chart.append( "g" )
+            .attr( 'class', 'person_axis' )
+            .call( personAxis )
+         .selectAll( "text" )
+            .attr( "transform", "rotate(90)" )
+            .style( 'text-anchor', 'end' )
+            .attr( 'x', -9 );
     chart.append( 'text' )
         .attr( 'x', width / 2 )
         .attr( 'y', 75 - margin.top )
@@ -51,111 +58,146 @@ var Chart = function( width, height, data ) {
         .attr( 'class', 'xAxisLabel' )
         .text( 'Person of Interest' );
 
-    chart.append( "g" )
-        .attr( 'class', 'time axis' )
-        .call( timeAxis );
-    chart.append( "g" )
-            .attr( 'class', 'person axis' )
-            .call( personAxis )
-         .selectAll( "text" )
-            .attr( "transform", "rotate(90)" )
-            .style( 'text-anchor', 'end' )
-            .attr( 'x', -9 );
-
     var personTip = d3.tip()
         .attr( 'class', 'd3-tip' )
         .html( function( person ) {
             return person.summary;
         });
+    
+    this.updateData = function( dataset ) {
+        personScale.domain( dataset.people.map(
+                                function( person ) {
+                                    return person.name;
+                                } ) )
+                   .rangeRoundBands( [ 0, width ], 0.1 );
+        chart.select( ".person_axis" )
+             .call( personAxis )
+             .selectAll( "text" )
+                .attr( "transform", "rotate(-30)" )
+                .style( 'text-anchor', 'start' )
+                .attr( 'x', 12 )
+                .attr( 'y', -12 );
 
-    var people = chart.selectAll( "rect.person" )
-        .data( data.people )
-        .enter()
-            .append( 'rect' )
-            .attr( 'class', 'person' )
-            .attr( 'x',
-                   function( person ) {
-                       console.log(person.name);
-                       return personScale( person.name ) +
-                              personScale.rangeBand() / 2 - 10;
-                   } )
-            .attr( 'y',
-                   function( person ) {
-                       return timeScale( person.born );
-                   } )
-            .attr( 'height',
-                   function( person ) {
-                       return timeScale( person.died || time.end ) - timeScale( person.born );
-                   } )
-            .attr( 'width', min( personScale.rangeBand(),
-                                 20 ) )
-            .on( 'mouseenter', personTip.show )
-            .on( 'mouseout', personTip.hide );
+        var people = chart.selectAll( "rect.person" )
+            .data( dataset.people );
+        var personBarXFunction = function( person ) {
+            return personScale( person.name ) + personScale.rangeBand() / 2 - 10;
+        };
+        var personBarYFunction = function( person ) {
+            return timeScale( person.born );
+        };
+        var personBarHeightFunction = function( person ) {
+            return timeScale( person.died || time.end ) - timeScale( person.born );
+        };
+        people.enter()
+                .append( 'rect' )
+                .attr( 'class', 'person' )
+                .attr( 'x', personBarXFunction )
+                .attr( 'y', personBarYFunction )
+                .attr( 'height', personBarHeightFunction )
+                .attr( 'width', min( personScale.rangeBand(), 20 ) )
+                .on( 'mouseenter', personTip.show )
+                .on( 'mouseout', personTip.hide );
+        people.exit().remove();
+        people.call( personTip );
+        people.transition()
+            .duration( 500 )
+            .attr( 'x', personBarXFunction )
+            .attr( 'y', personBarYFunction )
+            .attr( 'height', personBarHeightFunction )
+            .attr( 'width', min( personScale.rangeBand(), 20 ) );
 
-    people.call( personTip );
+        var getRelColor = function( idx ) {
+            var colors = [ 'yellow', 'green', 'red', 'blue', 'orange' ];
+            return colors[ idx % colors.length ];
+        };
 
-    var getRelColor = function( idx ) {
-        var colors = [ 'yellow', 'green', 'red', 'blue', 'orange' ];
-        return colors[ idx % colors.length ];
+        var relTip = d3.tip()
+            .attr( 'class', 'd3-tip' )
+            .html( function( circle ) {
+                return circle.rel.name;
+            });
+
+        var relations = chart.selectAll( "g.relation" )
+            .data( dataset.relations );
+        var relationTransformFunction = function( rel ) {
+            return 'translate(' + 
+                   personScale.rangeBand() / 2 + ', ' +
+                   timeScale( rel.date ) + ')';
+        };
+        relations.enter()
+            .append( 'g' )
+            .attr( 'class', 'relation' )
+            .attr( 'transform', relationTransformFunction );
+        relations.transition().attr( 'transform', relationTransformFunction );
+        relations.exit().remove();
+
+        var relCircles = relations.selectAll( "circle.relPerson" )
+            .data( function( rel, i ) {
+                return rel.parties.map( function( party ) {
+                    return { party: party, idx: i, rel: rel };
+                } );
+            } );
+        var relCirclesCXFunction = function( rel ) {
+            return personScale( rel.party );
+        };
+        var relCirclesFillFunction = function( rel ) {
+            return getRelColor( rel.idx );
+        };
+        relCircles.enter()
+            .append( 'circle' )
+                .attr( 'class', 'relPerson' )
+                .attr( 'cx', relCirclesCXFunction )
+                .attr( 'r', 12 )
+                .attr( 'fill', relCirclesFillFunction )
+                .on( 'mouseover', relTip.show )
+                .on( 'mouseout', relTip.hide );
+        relCircles.call( relTip );
+        relCircles.transition().delay( 500 )
+            .attr( 'cx', relCirclesCXFunction )
+            .attr( 'fill', relCirclesFillFunction );
+        relCircles.exit().remove();
+
+        var relLines = relations.selectAll( 'line.relHorizontal' )
+            .data( function( rel, i ) {
+                return [ { parties: rel.parties,
+                           idx: i } ];
+            } );
+        var relLinesX1Function = function( rel ) {
+            return Math.min.apply( null, rel.parties.map( personScale ) );
+        };
+        var relLinesX2Function = function( rel ) {
+            return Math.max.apply( null, rel.parties.map( personScale ) );
+        };
+        var relLinesStrokeColorFunction = function( rel ) {
+            return getRelColor( rel.idx );
+        };
+        relLines.enter()
+            .append( 'line' )
+                .style( 'stroke', relLinesStrokeColorFunction )
+                .attr( 'x1', relLinesX1Function )
+                .attr( 'x2', relLinesX2Function );
+        relLines.transition().delay( 500 )
+            .style( 'stroke', relLinesStrokeColorFunction )
+            .attr( 'x1', relLinesX1Function )
+            .attr( 'x2', relLinesX2Function );
+        relLines.exit().remove();
+        return this;
     };
+    this.chart = chart;
 
-    var relTip = d3.tip()
-        .attr( 'class', 'd3-tip' )
-        .html( function( circle ) {
-            return circle.rel.name;
-        });
-
-    var relations = chart.selectAll( "g.relation" )
-        .data( data.relations ).enter()
-        .append( 'g' )
-        .attr( 'class', 'relation' )
-        .attr( 'transform',
-                function( rel ) {
-                    return 'translate(' + 
-                           personScale.rangeBand() / 2 + ', ' +
-                           timeScale( rel.date ) + ')';
-        } );
-    var relCircles = relations.selectAll( "circle.relPerson" )
-        .data( function( rel, i ) {
-            return rel.parties.map( function( party ) {
-                return { party: party, idx: i, rel: rel };
-            } );
-        } )
-        .enter()
-        .append( 'circle' )
-            .attr( 'class', 'relPerson' )
-            .attr( 'cx', function( party ) {
-                            return personScale( party.party );
-            } )
-            .attr( 'r', 12 )
-            .attr( 'fill', function( rel ) {
-               return getRelColor( rel.idx );
-            } )
-            .on( 'mouseover', relTip.show )
-            .on( 'mouseout', relTip.hide );
-    relCircles.call( relTip );
-
-    relations.selectAll( 'line.relHorizontal' )
-        .data( function( rel, i ) {
-            return [ { parties: rel.parties,
-                       idx: i } ];
-        } )
-        .enter()
-        .append( 'line' )
-            .style( 'stroke', function( rel ) {
-               return getRelColor( rel.idx );
-            } )
-            .attr( 'x1', function( rel ) {
-                return Math.min.apply( null,
-                                       rel.parties.map( personScale ) );
-            } )
-            .attr( 'x2', function( rel ) {
-                return Math.max.apply( null,
-                                       rel.parties.map( personScale ) );
-            } );
+    return this;
 };
 
 var chart;
 $(document).ready(function() {
-    chart = new Chart( 900, 900, dataset );
+    chart = new Chart( 900, 1200 )
+        .updateData( brandy );
+
+    d3.select( "#dataset-select" )
+        .on( 'change', function() {
+            var selection = d3.select( this ).property( 'value' );
+            console.log( selection );
+            chart.updateData( datasets[ selection ] );
+        } );
 });
