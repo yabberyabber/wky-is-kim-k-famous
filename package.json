@@ -4,6 +4,7 @@
   "description": "Visualization of all the connections in Holleywood",
   "main": "index.html",
   "dependencies": {
+    "imdb-api": "^2.2.1",
     "jshint": "^2.9.4"
   },
   "devDependencies": {

@@ -8,7 +8,7 @@ var Chart = function( width, height ) {
     width = width - margin.left - margin.right;
     height = height - margin.top - margin.bottom;
 
-    var time = { start: 1935, end: 2020 };
+    var time = { start: 1930, end: 2020 };
 
     var chart = d3.select( "body" ).append( "svg" )
          .attr( "width", width + margin.left + margin.right )
@@ -87,7 +87,8 @@ var Chart = function( width, height ) {
             return timeScale( person.born );
         };
         var personBarHeightFunction = function( person ) {
-            return timeScale( person.died || time.end ) - timeScale( person.born );
+            return timeScale( person.died || time.end ) -
+                timeScale( person.born || time.start );
         };
         people.enter()
                 .append( 'rect' )
@@ -191,8 +192,8 @@ var Chart = function( width, height ) {
 
 var chart;
 $(document).ready(function() {
-    chart = new Chart( 900, 1200 )
-        .updateData( kim );
+    chart = new Chart( 1500, 1200 )
+        .updateData( bacon );
 
     d3.select( "#dataset-select" )
         .on( 'change', function() {
