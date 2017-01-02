@@ -1,12 +1,13 @@
+const Priorityset = require( './prioritySet.js' );
+const JobQueue = require( './jobqueue.js' );
 const querystring = require( 'querystring' );
 const fetch = require( 'node-fetch' );
 const Wiki = require( 'wikijs' );
 const fs = require( 'fs' );
 
 const API_KEY = '2a265e8edc9251252de448540935d2f1';
-const SEED_ACTOR = 'Kevin Bacon';
 const MAX_ACTORS = 60;
-const MAX_MOVIES = 70;
+const MAX_MOVIES = 100;
 
 const MAX_ACTOR_WORKERS = 2;
 const MAX_MOVIE_WORKERS = 2;
@@ -14,7 +15,12 @@ const MAX_MOVIE_WORKERS = 2;
 var actorsExplored = {};
 var moviesExplored = {};
 
-var actorsToExplore = [];
+actorsToExplore.push( "Kevin Bacon" );
+actorsToExplore.push( "Kevin Bacon" );
+actorsToExplore.push( "Carrie Fisher" );
+actorsToExplore.push( "Carrie Fisher" );
+actorsToExplore.push( "Debbie Reynolds" );
+actorsToExplore.push( "Debbie Reynolds" );
 var moviesToExplore = {};
 
 var PersonSearcher = ( function() {
@@ -169,9 +175,52 @@ var PersonSearcher = ( function() {
     };
 } )();
 
-var movieWorkers = MAX_MOVIE_WORKERS;
+var actorQueue = ( () => {
+    var allActorsSeen = [];
+    var queue = [];
+
+    this.enqueue = ( data ) => {
+        if ( allActorsSeen.indexOf( data ) == -1 ) {
+            queue.push( data );
+            allActorsSeen.push( data );
+        }
+    };
+    this.dequeue = () => {
+        return queue.shift();
+    };
+    this.emptyP = () => {
+        return queue.length === 0;
+    };
+} ) ();
+
+var doMovieSearch = ( movie ) => {
+    return PersonSearcher.searchMovie( movie.id ).then( ( movie ) => {
+        moviesExplored[ movie.movieId ] =
+            moviesExplored[ movie.movieId ] || {
+                actors: [], name: movie.title, summary: movie.summary,
+                date: movie.release, movieId: movie.movieId
+            };
+
+
+        movie.actors.forEach( ( name ) => {
+            personQueue.push( name );
+            moviesExplored[ movie.movieId ].actors.push( name );
+        } );
+    } );
+};
+
 var movieResolver;
 var moviePromise = new Promise( ( resolve, reject ) => { movieResolver = resolve; } );
+
+var movieQueue = new JobQueue.QueuedWorkers( {
+    enqueueFunction: actorQueue.enqueue,
+    dequeueFunction: actorQueue.dequeue,
+    queueEmpty: actorQueue.emptyP,
+    workerFactory: doMovieSearch,
+    numWorkers: MAX_MOVIE_WORKERS,
+    callback: () => { movieResolver( 0 ); }
+} );
+
 var handleMovie = ( movie ) => {
     console.log( "GOT MOVIE: ", movie.title );
     moviesExplored[ movie.movieId ] = moviesExplored[ movie.movieId ] ||
@@ -220,7 +269,7 @@ var restartPersonSearch = ( reason ) => {
         startPersonSearch( actor );
     }
     else {
-        console.log( "  there are no actors in queue", actorsToExplore );
+        console.log( "  there are no actors in queue", actorsToExplore.get() );
     }
 };
 
@@ -233,9 +282,9 @@ var startPersonSearch = ( name ) => {
         return;
     }
 
-    if ( actorsExplored[ name ] || actorsToExplore.indexOf( name ) > -1 ) {
+    if ( actorsExplored[ name ] ) {
         console.log( name, " actor already in queue" );
-        if ( personWorkers > 0 && actorsToExplore != [] ) {
+        if ( personWorkers > 0 && !actorsToExplore.emptyP() ) {
             startPersonSearch( actorsToExplore.pop() );
         }
         return;
@@ -249,6 +298,7 @@ var startPersonSearch = ( name ) => {
 
     console.log( "STARTING ACTOR ", name );
     personWorkers--;
+    actorsToExplore.pull( name );
     PersonSearcher.searchPerson( name ).then( handlePerson )
         .catch( restartPersonSearch );
 };
@@ -307,7 +357,7 @@ var startMovieSearch = ( movie ) => {
         .catch( restartMovieSearch );
 };
 
-startPersonSearch( SEED_ACTOR );
+restartPersonSearch( "Starting" );
 
 /*
 PersonSearcher.getMovies( SEED_ACTOR ).then( console.log );
@@ -322,7 +372,7 @@ Promise.race( [
 //setTimeout( () => {
     console.log( "\n\nACTORS EXPLORED:\n", actorsExplored );
     console.log( "\n\nMOVIES EXPLORED:\n", moviesExplored );
-    console.log( "to explore: ", actorsToExplore, moviesToExplore );
+    console.log( "to explore: ", actorsToExplore.get(), moviesToExplore );
     console.log( "workers: ", personWorkers, movieWorkers );
     console.log( "lengths: ", Object.keys( actorsExplored ).length,
                               Object.keys( moviesExplored ).length );
@@ -387,7 +437,7 @@ var trimDataset = ( dataset ) => {
         if ( actor.name === undefined ) {
             actor = { name: actor };
         }
-        return ( actorCounts[ actor.name ] > 1 &&
+        return ( actorCounts[ actor.name ] > 2 &&
                  actors.indexOf( actor.name ) > -1 );
     };
 
@@ -405,6 +455,7 @@ var trimDataset = ( dataset ) => {
 
     console.log( "actors now", dataset.people.length,
             " movies now ", dataset.relations.length );
+    console.log( "actors", dataset.people.map( ( person ) => { return person.name; } ) );
 
     return dataset;
 };

@@ -11,10 +11,11 @@
     "d3": "^4.4.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "andrew2nelson@gmail.com",
   "license": "ISC"

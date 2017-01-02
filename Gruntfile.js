@@ -6,7 +6,8 @@ module.exports = function(grunt) {
             exclude: [ 'js/tip.js' ],
             all: [ 'Gruntfile.js',
                    'js/**/*.js',
-                   'dataset_generators/**/*.js' ],
+                   'dataset_generators/**/*.js',
+                   'test/**/*.js' ],
             options: {
                 jshintrc: '.jshintrc'
             }
@@ -14,7 +15,8 @@ module.exports = function(grunt) {
         watch: {
             files: [ 'Gruntfile.js',
                      'js/**/*.js',
-                     'dataset_generators/**/*.js' ],
+                     'dataset_generators/**/*.js',
+                     'test/**/*.js' ],
             tasks: [ 'jshint' ]
         }
     });

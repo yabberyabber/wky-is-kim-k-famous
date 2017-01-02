@@ -109,7 +109,7 @@ var Chart = function( width, height ) {
             .attr( 'width', Math.min( personScale.rangeBand(), 20 ) );
 
         var getRelColor = function( idx ) {
-            var colors = [ 'yellow', 'green', 'red', 'blue', 'orange' ];
+            var colors = [ 'yellow', 'green', 'red', 'blue', 'orange', 'purple' ];
             return colors[ idx % colors.length ];
         };
 
@@ -149,7 +149,7 @@ var Chart = function( width, height ) {
             .append( 'circle' )
                 .attr( 'class', 'relPerson' )
                 .attr( 'cx', relCirclesCXFunction )
-                .attr( 'r', 12 )
+                .attr( 'r', 16 )
                 .attr( 'fill', relCirclesFillFunction )
                 .on( 'mouseover', relTip.show )
                 .on( 'mouseout', relTip.hide );
