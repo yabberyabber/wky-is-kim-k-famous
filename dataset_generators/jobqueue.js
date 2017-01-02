@@ -2,7 +2,23 @@ var xor = ( x, y ) => {
     return ( x || y ) && !( x && y );
 };
 
-var DummyQueue = function () {
+module.exports.filterUnique = function ( queue ) {
+    var thingsSeen = [];
+
+    var oldEnqueue = queue.enqueue;
+
+    var newEnqueue = ( data ) => {
+        if ( thingsSeen.indexOf( data ) == -1 ) {
+            oldEnqueue( data );
+            thingsSeen.push( data );
+        }
+    };
+
+    queue.enqueue = newEnqueue;
+    return queue;
+};
+
+module.exports.DummyQueue = function () {
     var queue = [];
 
     this.enqueue = ( data ) => {
@@ -35,7 +51,7 @@ module.exports.QueuedWorkers = function ( args ) {
         throw "Must befine workerFactory";
     }
 
-    let defaultQueue = new DummyQueue();
+    let defaultQueue = new module.exports.DummyQueue();
     var enqueue = args.enqueueFunction || defaultQueue.enqueue;
     var dequeue = args.dequeueFunction || defaultQueue.dequeue;
     var queueEmptyP = args.queueEmpty || defaultQueue.emptyP;

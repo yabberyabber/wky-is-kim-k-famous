@@ -2,19 +2,14 @@ var bacon = {
     "people": [
         {
             "born": 1956,
-            "died": 1956,
+            "died": 2016,
             "name": "Carrie Fisher",
             "summary": "Carrie Frances Fisher (October 21, 1956 \u2013 December 27, 2016) was an American actress, writer, producer, and humorist. Fisher was the daughter of Eddie Fisher and Debbie Reynolds. She was known for playing Princess Leia in the Star Wars film series. Her other film roles included Shampoo (1975), The Blues Brothers (1980), Hannah and Her Sisters (1986), The 'Burbs (1989), and When Harry Met Sally... (1989).\nFisher wrote several semi-autobiographical novels, including Postcards from the Edge, the screenplay for the film of the book, an autobiographical one-woman play, and a non-fiction book, Wishful Drinking, based on the play. She worked on other writers' screenplays as a script doctor. In later years, she earned praise for speaking publicly about her experiences with bipolar disorder and drug addiction.\nFisher and her mother appear in Bright Lights: Starring Carrie Fisher and Debbie Reynolds, a 2016 documentary about their relationship. It premiered at the 2016 Cannes Film Festival.\nFisher died at the age of 60 on December 27, 2016, four days after experiencing a medical emergency near the end of a transatlantic flight from London to Los Angeles."
         },
         {
-            "born": 1960,
-            "name": "Julianne Moore",
-            "summary": "Julianne Moore (born Julie Anne Smith; December 3, 1960) is an American-British actress, prolific in films since the early 1990s. She is particularly known for her portrayals of emotionally troubled women in both independent and Hollywood films, and has received many accolades, including the 2014 Academy Award for Best Actress.\nAfter studying theatre at Boston University, Moore began her career with a series of television roles. From 1985 to 1988, she was a regular in the soap opera As the World Turns, earning a Daytime Emmy for her performance. Her film debut was in Tales from the Darkside: The Movie (1990), and she continued to play small roles for the next four years \u2013 including in the thriller The Hand That Rocks the Cradle (1992). Moore first received critical attention with Robert Altman's Short Cuts (1993), and successive performances in Vanya on 42nd Street (1994) and Safe (1995) continued this acclaim. Starring roles in the blockbusters Nine Months (1995) and The Lost World: Jurassic Park (1997) established her as a leading actress in Hollywood.\nMoore received considerable recognition in the late 1990s and early 2000s, earning Oscar nominations for Boogie Nights (1997), The End of the Affair (1999), Far from Heaven (2002) and The Hours (2002). In the first of these she played a 1970s pornographic actress, while the other three featured her as an unhappy, mid-20th century housewife. She also had success with the films The Big Lebowski (1998), Magnolia (1999), Hannibal (2001), Children of Men (2006), A Single Man (2009), The Kids Are All Right (2010), and Crazy, Stupid, Love (2011), and won several awards for her portrayal of Sarah Palin in the television film Game Change (2012). The year 2014 was key for Moore, as she gave an Oscar-winning performance as an Alzheimer's patient in Still Alice, was named Best Actress at the Cannes Film Festival for Maps to the Stars, and joined the lucrative Hunger Games series.\nIn addition to acting, Moore has written a series of children's books about a character named \"Freckleface Strawberry\". She is married to director Bart Freundlich, with whom she has two children."
-        },
-        {
-            "born": 1951,
-            "name": "Mark Hamill",
-            "summary": "Mark Richard Hamill (born September 25, 1951) is an American actor, voice actor, and writer. He is known for playing Luke Skywalker in the Star Wars film series. His other works include Corvette Summer (1978) and The Big Red One (1980), among other television shows and movies. Hamill has also appeared on stage in several theater productions, primarily during the 1980s.\nHamill is a prolific voice actor who has voiced characters in many animated television shows, movies, and video games since the 1970s. He is known for his long-standing role as DC Comics' the Joker, commencing with Batman: The Animated Series in 1992.\n\n"
+            "born": 1958,
+            "name": "Kevin Bacon",
+            "summary": "Kevin Norwood Bacon (born July 8, 1958) is an American actor and musician. His notable films include musical-drama film Footloose (1984), the controversial historical conspiracy legal thriller JFK (1991), the legal drama A Few Good Men (1992), the historical docudrama Apollo 13 (1995), and the mystery drama Mystic River (2003). Bacon is also known for taking on darker roles such as that of a sadistic guard in Sleepers and troubled former child abuser in a critically acclaimed performance in The Woodsman. Also on television, he starred in the Fox series The Following from 2013 to 2015. Bacon has won a Golden Globe Award and three Screen Actors Guild Awards, and was nominated for a Primetime Emmy Award. The Guardian named him one of the best actors never to have received an Academy Award nomination. In 2003, Bacon received a star on the Hollywood Walk of Fame.\nBacon has become an icon for the concept of interconnectedness (as in social networks), having been popularized by the game \"Six Degrees of Kevin Bacon\". In 2007, he created SixDegrees.org, a charitable foundation."
         },
         {
             "born": 1942,
@@ -22,203 +17,229 @@ var bacon = {
             "summary": "Harrison Ford (born July 13, 1942) is an American actor and film producer. He gained worldwide fame for his starring roles as Han Solo in the Star Wars film series and as the title character of the Indiana Jones film series. Ford is also known for his roles as Rick Deckard in the neo-noir dystopian science fiction film Blade Runner (1982), John Book in the thriller Witness (1985), for which he was nominated for the Academy Award for Best Actor, and Jack Ryan in the action films Patriot Games (1992) and Clear and Present Danger (1994).\nHis career has spanned six decades and includes roles in several Hollywood blockbusters; including the epic war film Apocalypse Now (1979), the legal drama Presumed Innocent (1990), the action film The Fugitive (1993), the political action thriller Air Force One (1997) and the psychological thriller What Lies Beneath (2000). Six of his films have been inducted into the National Film Registry: American Graffiti (1973), The Conversation (1974), Star Wars (1977), The Empire Strikes Back (1980), Raiders of the Lost Ark (1981) and Blade Runner.\nIn 1997, Ford was ranked No. 1 in Empire's \"The Top 100 Movie Stars of All Time\" list. As of 2016, the U.S. domestic box-office grosses of Ford's films total over US$4.7 billion, with worldwide grosses surpassing $6 billion, making Ford the highest-grossing U.S. domestic box-office star. Ford is married to actress Calista Flockhart, who is known for playing the title role in the comedy-drama series Ally McBeal."
         },
         {
-            "name": "Jennifer Lawrence",
-            "summary": "Jennifer Shrader Lawrence (born August 15, 1990) is an American actress. As of 2016, Lawrence is the highest-paid actress in the world, and her films have grossed over $5 billion worldwide. She is the youngest person to accrue four Academy Award nominations. She appeared in Time's 100 most influential people in the world in 2013 and Forbes Celebrity 100 the following year.\nDuring her childhood, Lawrence performed in church plays and school musicals. When she was 14, a talent scout spotted her in New York. Lawrence then moved to Los Angeles and began her acting career by playing guest roles in television shows. Her first major role came as a main cast member on the sitcom The Bill Engvall Show (2007\u20132009). She made her film debut with a supporting role in Garden Party (2008), and had her breakthrough playing a poverty-stricken teenager in the independent drama Winter's Bone (2010). Lawrence achieved wider recognition for playing the mutant Mystique in X-Men: First Class (2011), a role she reprised in later installments of the X-Men franchise.\nLawrence's fame continued to grow with her starring role as Katniss Everdeen in the Hunger Games film series (2012\u20132015), which established her as the highest-grossing action heroine of all time. She went on to earn various accolades from her collaborations with director David O. Russell. Her performance as a depressed widow in the romance film Silver Linings Playbook (2012) received an Academy Award for Best Actress, making her the second youngest Best Actress Oscar winner. Lawrence subsequently won a BAFTA Award for Best Actress in a Supporting Role for playing a troubled wife in the black comedy American Hustle (2013). She also received Golden Globe Awards for her roles in both of these films and for playing the title inventor in the biopic Joy (2015).\nLawrence is known in the media for being a vocal advocate of feminism and gender equality, and is the founder of the Jennifer Lawrence Foundation through which she supports various charitable organizations."
+            "born": 1951,
+            "name": "Mark Hamill",
+            "summary": "Mark Richard Hamill (born September 25, 1951) is an American actor, voice actor, and writer. He is known for playing Luke Skywalker in the Star Wars film series. His other works include Corvette Summer (1978) and The Big Red One (1980), among other television shows and movies. Hamill has also appeared on stage in several theater productions, primarily during the 1980s.\nHamill is a prolific voice actor who has voiced characters in many animated television shows, movies, and video games since the 1970s. He is known for his long-standing role as DC Comics' the Joker, commencing with Batman: The Animated Series in 1992."
+        },
+        {
+            "born": 1946,
+            "name": "Anthony Daniels",
+            "summary": "Anthony Daniels (born 21 February 1946) is an English actor and mime artist. He is best known for portraying the droid C-3PO in all of the movies in the Star Wars film series.\n\n"
+        },
+        {
+            "born": 1980,
+            "name": "Ryan Gosling",
+            "summary": "Ryan Thomas Gosling (born November 12, 1980) is a Canadian actor and musician. He began his career as a child star on the Disney Channel's Mickey Mouse Club (1993\u201395) and went on to appear in other family entertainment programs including Are You Afraid of the Dark? (1995) and Goosebumps (1996). He starred in the television series Breaker High (1997\u201398) as Sean Hanlon and Young Hercules (1998\u201399) as the title role. His first starring role was as a Jewish neo-Nazi in The Believer (2001), and he then built a reputation for starring in independent films such as Murder by Numbers (2002), The Slaughter Rule (2002), and The United States of Leland (2003).\nGosling came to the attention of a wider audience in 2004 with a leading role in the romantic drama The Notebook, for which he won four Teen Choice Awards and an MTV Movie Award. His performance as a drug-addicted teacher in Half Nelson (2006) was nominated for an Academy Award and his performance as a socially inept loner in Lars and the Real Girl (2007) was nominated for a Golden Globe Award. Also in 2007, he starred in the courtroom thriller Fracture. After a three-year acting hiatus, Gosling starred in Blue Valentine, earning him a second Golden Globe nomination. 2011 proved to be a landmark year for Gosling as he co-starred in three mainstream films \u2013 the romantic comedy-drama Crazy, Stupid, Love, the political drama The Ides of March and the action thriller Drive \u2013 and received two Golden Globe nominations. In 2013, he starred in the crime thriller Gangster Squad, the generational drama The Place Beyond the Pines, and the violent revenge film Only God Forgives. His directorial debut Lost River was released in 2014. In 2015, he joined an ensemble cast for the financial drama The Big Short.\nGosling's band, Dead Man's Bones, released their self-titled debut album and toured North America in 2009. He is a co-owner of Tagine, a Moroccan restaurant in Beverly Hills, California. He is a supporter of PETA, Invisible Children and the Enough Project and has travelled to Chad, Uganda and eastern Congo to raise awareness about conflicts in the regions."
+        },
+        {
+            "born": 1988,
+            "name": "Emma Stone",
+            "summary": "Emily Jean \"Emma\" Stone (born November 6, 1988) is an American actress. Born and raised in Scottsdale, Arizona, Stone was drawn to acting as a child, and her first role was in a theater production of The Wind in the Willows in 2000. As a teenager, she relocated to Los Angeles with her mother, and made her television debut in VH1's In Search of the New Partridge Family (2004), a reality show that produced only an unsold pilot. After a series of small television roles, she won a Young Hollywood Award for her film debut in Superbad (2007), and received positive media attention for her role in Zombieland (2009).\nThe 2010 teen comedy Easy A was Stone's first starring role and earned her nominations for the BAFTA Rising Star Award and a Golden Globe Award. This breakthrough role was followed by the commercially successful film Crazy, Stupid, Love (2011), and a supporting part in the critically acclaimed drama The Help (2011). The actress received wider recognition for playing Gwen Stacy in the 2012 superhero film The Amazing Spider-Man, and its sequel in 2014. She was nominated for an Academy Award for Best Supporting Actress for the role of a recovering drug addict in the black comedy-drama Birdman (2014). Her Broadway debut came in a revival of the musical Cabaret (2014\u201315). Stone won the Volpi Cup for Best Actress for playing an aspiring actress in the musical La La Land (2016).\nOne of the highest-paid actresses in the world in 2015, Stone has been nominated for an Academy Award, two British Academy Film Awards, and three Golden Globe Awards, and has won two Screen Actors Guild Awards. Aside from her acting career, she promotes several causes, such as increasing awareness of breast cancer."
+        },
+        {
+            "born": 1964,
+            "name": "Marisa Tomei",
+            "summary": "Marisa Tomei (/m\u0259\u02c8r\u026as\u0259 to\u028a\u02c8me\u026a/; Italian pronunciation: [ma\u02c8ri\u02d0za to\u02c8m\u025bi]; born December 4, 1964) is an American actress. In a career spanning three decades, Tomei had initial success in films as a young actress, followed by a series of unsuccessful films, then a resurgence with a series of critically acclaimed films. Following her work on the television series As the World Turns, she came to prominence as a cast member on The Cosby Show spin-off A Different World in 1987. After having minor roles in a few films, she came to international attention in 1992 with the comedy My Cousin Vinny, for which she received an Academy Award for Best Supporting Actress.\nOf the many films in which Tomei has appeared, her most commercially successful ones to date are What Women Want (2000), Anger Management (2003), Wild Hogs (2007), and Parental Guidance (2012), all of which have grossed hundreds of millions of dollars at the box office. She received critical acclaim for her performances in films such as Untamed Heart (1993), The Paper (1994), Unhook the Stars (1996), Slums of Beverly Hills (1998), In the Bedroom (2001) (for which she received her second Academy Award nomination for Best Supporting Actress), Before the Devil Knows You're Dead (2007), The Wrestler (2008) (for which she received her third Academy Award nomination), Cyrus (2010), and Love Is Strange (2014). She has also been cast in the Marvel Cinematic Universe as Aunt May and has appeared in Captain America: Civil War (2016) and will appear in Spider-Man: Homecoming (2017).\nTomei has also done substantial work in theater. She was formerly involved with the Naked Angels Theater Company and received acclaim for her performance in plays like Daughters (1986), Wait Until Dark (1998), Top Girls (2008), for which she received a nomination for Drama Desk Award for Outstanding Featured Actress in a Play, and The Realistic Joneses (2014), for which she received a special award at Drama Desk Awards."
         },
         {
             "born": 1988,
             "name": "Analeigh Tipton",
-            "summary": "Analeigh Christian Tipton (born November 9, 1988) is an American figure skater, actress, and fashion model. She is noted for placing third on Cycle 11 of America's Next Top Model and for her roles in the films Crazy, Stupid, Love, Warm Bodies and Two Night Stand.\n\n"
+            "summary": "Analeigh Christian Tipton (born November 9, 1988) is an American figure skater, actress, and fashion model. She is noted for placing third on Cycle 11 of America's Next Top Model and for her roles in the films Crazy, Stupid, Love, Warm Bodies and Two Night Stand."
         },
         {
-            "born": 1977,
-            "name": "Michael Fassbender",
-            "summary": "Michael Fassbender (born 2 April 1977) is an Irish\u2013German actor of stage and screen whose career includes roles in both independent and blockbuster films.\nHis feature film debut was in the fantasy war epic 300 (2007) as a Spartan warrior; his earlier roles included various stage productions, as well as starring roles on television such as in the HBO miniseries Band of Brothers (2001) and the Sky One fantasy drama Hex (2004\u201305). He first came to prominence for his role as IRA activist Bobby Sands in Hunger (2008), for which he won a British Independent Film Award. Subsequent roles include in the independent film Fish Tank (2009), as a Royal Marines lieutenant in Inglourious Basterds (2009), as Edward Rochester in the 2011 film adaptation of Jane Eyre, as Carl Jung in A Dangerous Method (2011), as a sentient android in Prometheus (2012), and in the musical comedy-drama Frank (2014) as an eccentric musician loosely inspired by Frank Sidebottom.\nIn 2011, Fassbender debuted as the Marvel Comics antihero Magneto in X-Men: First Class, and went on to share the role with Ian McKellen in X-Men: Days of Future Past (2014), and reprise it again in X-Men: Apocalypse (2016). Also in 2011, Fassbender's performance as a sex addict in Shame earned him the Volpi Cup for Best Actor at the Venice Film Festival and was nominated for Golden Globe and BAFTA Awards. In 2013, his role as slave owner Edwin Epps in the slavery epic 12 Years a Slave was similarly praised, earning him his first Oscar nomination for Best Supporting Actor. In 2013, Fassbender appeared in another Ridley Scott film, The Counselor. In 2015, he portrayed Steve Jobs in the Danny Boyle-directed biopic of the same name, and played Macbeth in Justin Kurzel's adaptation of William Shakespeare's play. For the former, he has received Academy Award, BAFTA, Golden Globe and SAG nominations. In 2015, he produced the western Slow West, in which he also starred."
+            "born": 1997,
+            "name": "Jonah Bobo",
+            "summary": "Jonah Bobo (born January 24, 1997) is an American actor and comedian.\n\n"
+        },
+        {
+            "born": 1999,
+            "name": "Joey King",
+            "summary": "Joey Lynn King (born July 30, 1999) is an American actress. She is known for her starring role as Ramona Quimby in Ramona and Beezus, the 2010 adaptation of Beverly Cleary's book series with the same title. She has also appeared in the films Oz the Great and Powerful, The Conjuring and White House Down."
+        },
+        {
+            "born": 1962,
+            "name": "Steve Carell",
+            "summary": "Steven John \"Steve\" Carell (/k\u0259\u02c8r\u025bl/; born August 16, 1962) is an American actor, comedian, director, producer and writer. After a five-year stint on The Daily Show with Jon Stewart, Carell found even greater fame playing Michael Scott on the American version of The Office, on which he also worked as an occasional writer and director.\nHe has also starred in lead roles in the films, The 40-Year-Old Virgin (2005), Evan Almighty (2007), Get Smart (2008), Crazy, Stupid, Love (2011), The Incredible Burt Wonderstone and The Way, Way Back (both 2013). He has also voiced characters in the animated films, Over the Hedge (2006), Horton Hears a Who! (2008), Despicable Me (2010), Despicable Me 2 (2013) and Minions (2015).\nCarell was nominated as \"America's funniest man\" in Life magazine, and received a Golden Globe Award Best Actor in a Television Series for his work on The Office. His dramatic role as wrestling coach and convicted murderer John Eleuth\u00e8re du Pont in the 2014 film Foxcatcher earned him several awards and nominations, including a nomination for the Academy Award for Best Actor. He also received acclaim for his roles in Little Miss Sunshine (2006) and The Big Short (2015), the latter of which earned him a Golden Globe nomination."
+        },
+        {
+            "born": 1984,
+            "name": "Scarlett Johansson",
+            "summary": "Scarlett Johansson (/d\u0292o\u028a\u02c8h\u00e6ns\u0259n/; born November 22, 1984) is an American actress, model, and singer. She made her film debut in North (1994). Johansson subsequently starred in Manny & Lo in 1996, and garnered further acclaim and prominence with roles in The Horse Whisperer (1998) and Ghost World (2001). She shifted to adult roles with her performances in Girl with a Pearl Earring (2003) and Sofia Coppola's Lost in Translation (2003), for which she won a BAFTA Award for Best Actress in a Leading Role.\nHer subsequent films included A Love Song for Bobby Long (2004), Woody Allen's Match Point (2005), The Island (2005), The Black Dahlia (2006), The Prestige (2006), The Other Boleyn Girl (2008), Vicky Cristina Barcelona (2008), He's Just Not That Into You (2009), Don Jon (2013), Her (2013), Under the Skin (2013), and Lucy (2014). Since 2010, Johansson has also portrayed the Marvel Comics character Black Widow in the Marvel Cinematic Universe. She won the Tony Award for Best Performance by a Featured Actress in a Play for her performance in the 2010 Broadway revival of Arthur Miller's A View from the Bridge. As a singer, Johansson has released two albums, Anywhere I Lay My Head and Break Up.\nJohansson is considered one of Hollywood's modern sex symbols, and has frequently appeared in published lists of the sexiest women in the world. As of July 2016, she is the highest-grossing actress of all time in North America, and tenth overall, with her films making over $3.3 billion. In 2016, she added another $1.2 billion to that box office record, being the highest grossing actor of the year."
+        },
+        {
+            "born": 1965,
+            "name": "Robert Downey Jr.",
+            "summary": "Robert John Downey Jr. (born April 4, 1965) is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal troubles, and a resurgence of commercial success in middle age. For three consecutive years from 2012 to 2015, Downey has topped the Forbes list of Hollywood's highest-paid actors, making an estimated $80 million in earnings between June 2014 and June 2015.\nMaking his acting debut at the age of five, appearing in his father's film Pound (1970), Downey Jr. appeared in roles associated with the Brat Pack, such as the teen sci-fi comedy Weird Science (1985) and the drama Less Than Zero (1987). He starred as title character in the 1992 film Chaplin, which earned him a nomination for the Academy Award for Best Actor and won him the BAFTA Award for Best Actor in a Leading Role. After being released in 2000 from the California Substance Abuse Treatment Facility and State Prison where he was on drug charges, Downey joined the cast of the TV series Ally McBeal playing Calista Flockhart's love interest. This earned him a Golden Globe Award. His character was written out when Downey was fired after two drug arrests in late 2000 and early 2001. After his last stay in a court-ordered drug treatment program, Downey achieved sobriety.\nDowney Jr.'s career prospects improved when he featured in the mystery thriller Zodiac (2007), and the satirical action comedy Tropic Thunder (2008); for the latter he was nominated for an Academy Award for Best Supporting Actor. Beginning in 2008, Downey began portraying the role of Marvel Comics superhero Iron Man in the Marvel Cinematic Universe, appearing in several films as either the lead role, member of an ensemble cast, or in a cameo. Each of these films has grossed over $500 million at the box office worldwide; four of these\u2014The Avengers, Avengers: Age of Ultron, Iron Man 3 and Captain America: Civil War\u2014earned over $1 billion. Downey Jr. has also played the title character in Guy Ritchie's Sherlock Holmes (2009) and its sequel (2011)."
+        },
+        {
+            "born": 1971,
+            "name": "Jeremy Renner",
+            "summary": "Jeremy Lee Renner (born January 7, 1971) is an American actor and singer. Throughout the 2000s, Renner appeared largely in independent films such as Dahmer (2002) and Neo Ned (2005). He also appeared in supporting roles in bigger films such as S.W.A.T. (2003) and 28 Weeks Later (2007). He then turned in a much-praised performance in The Town (2010), for which he received an Academy Award nomination for Best Supporting Actor.\nRenner is best known for his roles in The Hurt Locker (2008) for which he received an Academy Award nomination for Best Actor, and for playing Hawkeye in the Marvel Cinematic Universe films Thor (2011), Marvel's The Avengers (2012), Avengers: Age of Ultron (2015) and Captain America: Civil War (2016). He also appeared in commercially successful films such as Mission: Impossible \u2013 Ghost Protocol (2011), The Bourne Legacy (2012), Hansel and Gretel: Witch Hunters (2013), American Hustle (2013), and Mission: Impossible - Rogue Nation (2015)."
+        },
+        {
+            "born": 1981,
+            "name": "Andrea Riseborough",
+            "summary": "Andrea Louise Riseborough (born 20 November 1981) is an English stage and film actress. Her film appearances include Birdman, Oblivion, Welcome to the Punch, Disconnect, Shadow Dancer, W.E., Brighton Rock, Made in Dagenham, Never Let Me Go, Happy-Go-Lucky, and Venus."
+        },
+        {
+            "born": 1964,
+            "name": "Don Cheadle",
+            "summary": "Donald Frank \"Don\" Cheadle Jr. (/\u02c8t\u0283i\u02d0d\u0259l/; born November 29, 1964) is an American actor, writer, producer, and director. He had an early role in Hamburger Hill (1987), before building his career in the 1990s with performances in Devil in a Blue Dress (1995), Rosewood (1997) and Boogie Nights (1997). He started a collaboration with director Steven Soderbergh that resulted in the films Out of Sight (1998), Traffic (2000) and Ocean's Eleven (2001). Other films include The Rat Pack (1998), Things Behind the Sun (2001), Swordfish (2001), Crash (2004), Ocean's Twelve (2004), Ocean's Thirteen (2007), Reign Over Me (2007), Talk to Me (2007), Traitor (2008) and The Guard. Cheadle co-wrote, directed and starred in Miles Ahead, based on the life of jazz musician Miles Davis (2015). He plays the superhero Colonel James 'Rhodey' Rhodes / War Machine in the Marvel Cinematic Universe and has appeared in Iron Man 2 (2010), Iron Man 3 (2013), Avengers: Age of Ultron (2015) and Captain America: Civil War (2016).\nIn 2004, Cheadle earned critical acclaim for his lead role as Rwandan hotel manager Paul Rusesabagina in the genocide drama film Hotel Rwanda, which was set during the Rwandan Genocide, and which earned him a nomination for an Academy Award for Best Actor. He stars as Marty Kaan on the Showtime sitcom House of Lies, for which he most recently won a Golden Globe Award in 2013.\nCheadle has campaigned to end the genocide in Darfur, Sudan, and co-authored, with John Prendergast, a book about this issue, Not On Our Watch: The Mission to End Genocide in Darfur and Beyond. With George Clooney, Brad Pitt, Matt Damon, David Pressman, and Jerry Weintraub, Cheadle co-founded the Not On Our Watch Project, an organization focusing global attention and resources to stop and prevent mass atrocities. In 2010, Cheadle was named U.N. Environment Program Goodwill Ambassador."
+        },
+        {
+            "born": 1972,
+            "name": "Gwyneth Paltrow",
+            "summary": "Gwyneth Kate Paltrow (/\u02c8\u0261w\u026an\u1d7b\u03b8 \u02c8p\u00e6ltro\u028a/; born September 27, 1972) is an American actress, singer, and food writer. She gained early notice for her work in films such as the thriller Seven (1995) and the period drama Emma (1996). Following starring roles in the romantic comedy-drama Sliding Doors (1998) and the thriller A Perfect Murder (1998), Paltrow garnered worldwide recognition through her performance in Shakespeare in Love (1998), for which she won an Academy Award, a Golden Globe Award and two Screen Actors Guild Awards. Paltrow has portrayed supporting, as well as lead roles, in films such as The Talented Mr. Ripley (1999), The Royal Tenenbaums (2001), Shallow Hal (2001), and Proof (2005), for which she earned a Golden Globe nomination.\nSince 2008, Paltrow has portrayed Pepper Potts, the female lead of the Iron Man franchise in the Marvel Cinematic Universe, in Iron Man (2008), Iron Man 2 (2010), The Avengers (2012), and Iron Man 3 (2013). She won a Primetime Emmy Award for Outstanding Guest Actress in a Comedy Series in 2011 for her role as Holly Holliday on the Fox television series Glee, her first and so far only foray into television acting. She reprised the role several other times throughout the series' run.\nFollowing relationships with Brad Pitt and Ben Affleck, Paltrow married Chris Martin, the lead vocalist of band Coldplay, in 2003; they have two children. They announced their separation in March 2014 and divorced in July 2016. Paltrow has been dating television executive Brad Falchuk since August 2014.\nPaltrow has been the face of Est\u00e9e Lauder's Pleasures perfume since 2005. She is also the face of American fashion brand Coach, owner of a lifestyle company, and author of two cookbooks."
+        },
+        {
+            "born": 1948,
+            "name": "Samuel L. Jackson",
+            "summary": "Samuel Leroy Jackson (born December 21, 1948) is an American actor and film producer. He achieved prominence and critical acclaim in the early 1990s with films such as Jungle Fever (1991), Patriot Games (1992), Amos & Andrew (1993), True Romance (1993), Jurassic Park (1993) and his collaborations with director Quentin Tarantino including Pulp Fiction (1994), Jackie Brown (1997), Django Unchained (2012), and The Hateful Eight (2015). He is a highly prolific actor, having appeared in over 100 films, including Die Hard with a Vengeance (1995), Unbreakable (2000), Shaft (2000), The 51st State (2001), Black Snake Moan (2006), Snakes on a Plane (2006), and the Star Wars prequel trilogy (1999\u20132005), as well as the Marvel Cinematic Universe.\nWith Jackson's permission, his likeness was used for the Ultimate version of the Marvel Comics character Nick Fury. He later cameoed as the character in a post-credits scene from Iron Man (2008), and went on to sign a nine-film commitment to reprise this role in future films, including major roles in Iron Man 2 (2010), Marvel's The Avengers (2012), Captain America: The Winter Soldier (2014) and Avengers: Age of Ultron (2015) and minor roles in Thor (2011) and Captain America: The First Avenger (2011). He has also portrayed the character in the second and final episodes of the first season of the TV show Marvel's Agents of S.H.I.E.L.D..\nHe has provided his voice to several animated films, television series and video games, including the roles of Lucius Best / Frozone in Pixar Animation Studios' film The Incredibles (2004), Mace Windu in Star Wars: The Clone Wars (2008), Afro Samurai in the anime television series Afro Samurai (2007), and Frank Tenpenny in the video game Grand Theft Auto: San Andreas (2004).\nJackson has achieved critical and commercial acclaim, surpassing Frank Welker as the actor with the highest-grossing film total of all time in October 2011, and he has received numerous accolades and awards. He is married to LaTanya Richardson, with whom he has a daughter, Zoe. Samuel L. Jackson is ranked as the second highest all-time box office star with over $4,713.7 million total box office gross, an average of $68.3 million per film."
+        },
+        {
+            "born": 1981,
+            "name": "Tom Hiddleston",
+            "summary": "Thomas William Hiddleston (born 9 February 1981) is an English actor, producer and musical performer. At the beginning of his career, he appeared in West End theatre productions of Cymbeline (2007) and Ivanov (2008). He won the Laurence Olivier Award for Best Newcomer in a Play for his role in Cymbeline and was also nominated for the same award for his role as Cassio in Othello.\nHe came to wider public attention when cast as Loki in the Marvel Cinematic Universe, appearing in Thor (2011), The Avengers (2012), Thor: The Dark World (2013), and Thor: Ragnarok (2017). In 2011, he won the Empire Award for Best Male Newcomer and was nominated for the BAFTA Rising Star Award. Hiddleston has also appeared in Steven Spielberg's War Horse (2011), The Deep Blue Sea (2011), Woody Allen's romantic comedy Midnight in Paris (2011), the 2012 BBC series Henry IV and Henry V, and the romantic vampire film Only Lovers Left Alive (2013).\nIn late 2013 and early 2014, Hiddleston starred as the title character in the Donmar Warehouse production of Coriolanus, winning the Evening Standard Theatre Award for Best Actor. In 2015, he starred in Guillermo del Toro's Crimson Peak, Ben Wheatley's High Rise, and played the troubled country music singer Hank Williams in the biopic I Saw The Light.\nIn 2016, he starred in the AMC / BBC limited series The Night Manager, for which he received his first Primetime Emmy Award nomination for Outstanding Lead Actor in a Limited Series or Movie."
+        },
+        {
+            "born": 1982,
+            "name": "Cobie Smulders",
+            "summary": "Jacoba Francisca Maria \"Cobie\" Smulders (born April 3, 1982) is a Canadian actress and model. She is best known for her roles as Robin Scherbatsky on the television series How I Met Your Mother (2005\u20132014) and Maria Hill in the Marvel Cinematic Universe."
+        },
+        {
+            "born": 1951,
+            "name": "Stellan Skarsg\u00e5rd",
+            "summary": "Stellan John Skarsg\u00e5rd (Swedish pronunciation: [\u02c8st\u025bl\u02d0an \u02c8sk\u0251\u02d0\u0282\u0261o\u02d0\u0256]; born 13 June 1951) is a Swedish actor. He is known for his roles as Jan Nyman in Breaking the Waves (1996), Prof. Gerald Lambeau in Good Will Hunting (1997), Bootstrap Bill in Pirates of the Caribbean: Dead Man's Chest (2006) and Pirates of the Caribbean: At World's End (2007), Bill Anderson in Mamma Mia! (2008), Martin Vanger in The Girl With the Dragon Tattoo (2011), and Dr. Erik Selvig in the Marvel Cinematic Universe films Thor (2011), The Avengers (2012), Thor: The Dark World (2013), and Avengers: Age of Ultron (2015)."
+        },
+        {
+            "born": 1962,
+            "name": "Clark Gregg",
+            "summary": "Robert Clark Gregg (born April 2, 1962), known professionally as Clark Gregg, is an American actor, director, screenwriter and voice actor. He is better known for the role of Agent Phil Coulson in the Marvel Cinematic Universe. He has appeared in Iron Man (2008), Iron Man 2 (2010), Thor (2011), The Avengers (2012), and the television series Agents of S.H.I.E.L.D. being the actor with the longest screen time in the MCU. He also voices the character on the animated television series Ultimate Spider-Man and in the video games Lego Marvel Super Heroes, Lego Marvel Avengers and Marvel Heroes.\nGregg has also co-starred as Christine Campbell's ex-husband Richard in the CBS sitcom The New Adventures of Old Christine, which debuted in March 2006 and concluded in May 2010. He also played FBI Special Agent Mike Casper on the NBC series The West Wing and Cam, the on-and-off boyfriend of Jack (and client of Grace) on the NBC series Will & Grace.\n\n"
+        },
+        {
+            "born": 1983,
+            "name": "Chris Hemsworth",
+            "summary": "Chris Hemsworth (born 11 August 1983) is an Australian actor. He is known for playing Kim Hyde in the Australian TV series Home and Away (2004) and Thor in the Marvel Cinematic Universe since 2011. Hemsworth has also appeared in the science fiction action film Star Trek (2009), the thriller adventure A Perfect Getaway (2009), the horror comedy The Cabin in the Woods (2012), the dark-fantasy action film Snow White and the Huntsman (2012), the war film Red Dawn (2012), and the biographical sports drama film Rush (2013).\nIn 2015, he starred in the action thriller film Blackhat, had a comedic role in the fifth installment of National Lampoon's Vacation series, Vacation, and headlined the biographical thriller film In the Heart of the Sea. The following year, Hemsworth had a supporting role in Sony's reboot of Ghostbusters. Hemsworth will reprise his role as George Kirk in the upcoming Star Trek sequel.\n\n"
+        },
+        {
+            "born": 1961,
+            "name": "Campbell Scott",
+            "summary": "Campbell Scott (born July 19, 1961) is an American actor, director, producer, and voice artist. He is known for his roles as Boris Kuester von Jurgens-Ratenicz on Royal Pains, Joseph Tobin on Damages, and Richard Parker in The Amazing Spider-Man and The Amazing Spider-Man 2, as well as numerous stage appearances."
+        },
+        {
+            "born": 1946,
+            "name": "Sally Field",
+            "summary": "Sally Margaret Field (born November 6, 1946) is an American film and television actress and director. Field began her career in television, starring on the sitcoms Gidget (1965\u201366) and The Flying Nun (1967\u201370). She ventured into film with Smokey and the Bandit (1977) and later Norma Rae (1979), for which she received the Academy Award for Best Actress. She later received Golden Globe Award nominations for her performances in Absence of Malice (1981) and Kiss Me Goodbye (1982), before receiving her second Oscar for Best Actress for Places in the Heart (1984). Field received further nominations for a Golden Globe Award for Best Actress for Murphy's Romance (1985) and Steel Magnolias (1989).\nIn the 1990s, Field appeared in a wide range of films, including Not Without My Daughter (1991) and Mrs. Doubtfire (1993), before being nominated for the BAFTA Award for Best Actress in a Supporting Role for Forrest Gump (1994). In the 2000s, she returned to television with a recurring role on the NBC medical drama ER, for which she won the Primetime Emmy Award for Outstanding Guest Actress in a Drama Series in 2001. From 2006 to 2011, she portrayed the lead role of Nora Walker on the ABC drama Brothers & Sisters, for which she won the 2007 Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. Field later starred as Mary Todd Lincoln in Lincoln (2012), for which she was nominated for the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress, among other accolades. She also appeared as Aunt May in The Amazing Spider-Man (2012) and reprised the role in the 2014 sequel.\nField also directed the TV film The Christmas Tree (1996), an episode of the 1998 HBO miniseries From the Earth to the Moon as well as the feature film Beautiful (2000). In 2014, she was presented with a star on the Hollywood Walk of Fame."
+        },
+        {
+            "born": 1965,
+            "name": "Embeth Davidtz",
+            "summary": "Embeth Jean Davidtz (born August 11, 1965) is an American-South African actress. Her screen roles include movies such as Schindler's List, Matilda, Junebug, Mansfield Park, Bicentennial Man, and Fracture, and the television series Californication and Mad Men. Davidtz spent much of her early life in South Africa."
+        },
+        {
+            "born": 1965,
+            "name": "Frank Grillo",
+            "summary": "Frank Anthony Grillo (born June 8, 1965) is an American actor known for his roles in films such as Warrior (2011), The Grey (2012), End of Watch (2012) and Zero Dark Thirty (2012). He had his first leading role in the thriller film The Purge: Anarchy (2014), portraying Sergeant Leo Barnes, a role he reprised in The Purge: Election Year (2016). He also plays the Marvel supervillain Brock Rumlow / Crossbones in the Marvel Cinematic Universe.\nGrillo's television work includes recurring roles in the series Battery Park (2000), For the People (2002\u20132003), The Shield (2002\u20132003), Prison Break (2005\u20132006), Blind Justice (2005), and The Kill Point (2007). He has also starred as Hart Jessup in the soap opera Guiding Light (1996\u20131999), Nick Monohan in sci-fi series The Gates (2010), and since 2014, he has played Alvey Kulina in the DirecTV drama series Kingdom."
+        },
+        {
+            "born": 1996,
+            "name": "Colin Ford",
+            "summary": "Colin Ford (born September 12, 1996) is an American actor and voice actor. He appeared as Joe McAlister in Under the Dome. He is also known as the voice of Jake on Jake and the Never Land Pirates, which earned him a Young Artist Award, and for his role as Dylan Mee in the family movie We Bought a Zoo."
+        },
+        {
+            "born": 1971,
+            "name": "Paul Bettany",
+            "summary": "Paul Bettany (born 27 May 1971) is an English actor. He first came to the attention of mainstream audiences when he appeared in the British film Gangster No. 1 (2000), and director Brian Helgeland's film A Knight's Tale (2001). He has gone on to appear in a wide variety of films, including A Beautiful Mind (2001), Master and Commander: The Far Side of the World (2003), Dogville (2003), Wimbledon (2004), and the adaptation of the novel The Da Vinci Code (2006). He is known for his voice role as J.A.R.V.I.S. in the Marvel Cinematic Universe, specifically the films Iron Man (2008), Iron Man 2 (2010), The Avengers (2012), Iron Man 3 (2013), and Avengers: Age of Ultron (2015), in which he also portrayed the Vision, for which he garnered praise. He reprised his role as the Vision in Captain America: Civil War (2016).\nHe has been nominated for various awards, including BAFTA Award for Best Actor in a Supporting Role and a Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture. Bettany is married to American actress Jennifer Connelly, with whom he has two children. His most commercially successful films have been The Avengers, which grossed over US$1.5 billion, its sequel Avengers: Age of Ultron, which grossed over $1.4 billion, Iron Man 3, which grossed over US$1.2 billion, and The Da Vinci Code, which grossed US$758 million.\n\n"
+        },
+        {
+            "born": 1956,
+            "name": "Tom Hanks",
+            "summary": "Thomas Jeffrey Hanks (born July 9, 1956) is an American actor, comedian, and filmmaker. He is known for his roles in Splash (1984), Big (1988), Turner & Hooch (1989), Philadelphia (1993), Forrest Gump (1994), Apollo 13 (1995), Saving Private Ryan, You've Got Mail (both 1998), The Green Mile (1999), Cast Away (2000), and The Da Vinci Code (2006), as well as for his voice work in the animated Toy Story series and The Polar Express (2004).\nHanks' films have grossed more than $4.5 billion at U.S. and Canadian box offices and more than $9.0 billion worldwide, making him the third highest-grossing actor in North America. Hanks has been nominated for numerous awards during his career. He won a Golden Globe Award and an Academy Award for Best Actor for his role in Philadelphia, as well as a Golden Globe, an Academy Award, a Screen Actors Guild Award, and a People's Choice Award for Best Actor for his role in Forrest Gump. In 2004, he received the Stanley Kubrick Britannia Award for Excellence in Film from the British Academy of Film and Television Arts (BAFTA). In 2014, he received a Kennedy Center Honor, and in 2016, he received a Presidential Medal of Freedom from President Barack Obama. as well as the French Legion of Honor, along with retired NBC anchor Tom Brokaw, and Dr Nick Mueller, President of the WW II Museum in New Orleans, LA.\nHanks is also known for his collaborations with film director Steven Spielberg on Saving Private Ryan, Catch Me If You Can (2002), The Terminal (2004), and Bridge of Spies (2015), as well as the 2001 miniseries Band of Brothers, which launched Hanks as a successful director, producer, and screenwriter. In 2010, Spielberg and Hanks were executive producers on the HBO miniseries The Pacific (a companion piece to Band of Brothers).\n\n"
+        },
+        {
+            "born": 1983,
+            "name": "Andrew Garfield",
+            "summary": "Andrew Russell Garfield (born 20 August 1983) is an American-British actor. Born in Los Angeles and raised in Epsom, Surrey, Garfield began his career on the UK stage and in television productions. He made his feature-film debut in the 2007 ensemble drama Lions for Lambs. Garfield first came to international attention in 2010 with supporting roles in the drama films The Social Network, for which he received Golden Globe and BAFTA nominations for his portrayal of Eduardo Saverin, and Never Let Me Go, for which he received a Saturn Award and another BAFTA nomination.\nGarfield subsequently received praise for his performance as the title character in the 2012 superhero film The Amazing Spider-Man. He has also performed on stage, and played Biff in the 2012 Broadway revival of Arthur Miller's Death of a Salesman, co-starring Philip Seymour Hoffman. Garfield's performance earned him a Tony Award nomination for Best Featured Actor in a Play. In 2014, he co-produced and starred in the thriller 99 Homes. Garfield received further critical acclaim for his role as United States Army corporal Desmond T. Doss in Mel Gibson's war drama, Hacksaw Ridge, for which he received nominations for the Critics' Choice Movie Award for Best Actor, Golden Globe Award for Best Actor - Motion Picture Drama and Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role.\n\n"
+        },
+        {
+            "born": 1967,
+            "name": "Irrfan Khan",
+            "summary": "Sahabzade Irfan Ali Khan (born 7 January 1967), credited as Irfan Khan or simply Irfan, is an Indian film actor known for his work predominantly in Hindi cinema. He is also known for his works in British cinema, and Hollywood. Film critics, contemporaries, and other experts consider him to be one of the finest actors in Indian cinema for his versatile and natural acting. In 2011, Khan received the Padma Shri, India's fourth highest civilian honour for his contribution to the field of arts.\nKhan has garnered the National Film Award for Best Actor in the 60th National Film Awards 2012, for his performance in Paan Singh Tomar. Khan has won the 2014 Asian Film Award for Best Actor, three International Indian Film Academy Awards, three Filmfare Awards, an Independent Spirit Award nomination, and various international honours. He also hosted a television show and commercials. As of 2015, he had appeared in more than 50 Indian films in Bollywood, and a few international films, such as Life of Pi, New York, I Love You, The Amazing Spider-Man and Jurassic World, with a featured role alongside Tom Hanks in the 2016 adaptation of Dan Brown's novel Inferno. In September, 2015, he was appointed as the brand ambassador for \"Resurgent Rajasthan\", a campaign by the state government of Rajasthan."
+        },
+        {
+            "born": 1985,
+            "name": "Chris Zylka",
+            "summary": "Chris Settlemire (born May 9, 1985), known professionally as Chris Zylka, is an American actor and model."
+        },
+        {
+            "born": 1986,
+            "name": "Dane DeHaan",
+            "summary": "Dane William DeHaan (/d\u1d7b\u02c8h\u0251\u02d0n/ d\u0259-HAHN; born February 6, 1986) is an American actor. He is known for playing Jesse on the HBO series In Treatment, and for his roles in the films Chronicle (2012), The Place Beyond the Pines (2013), Kill Your Darlings (2013), The Amazing Spider-Man 2 (2014) and Life (2015)."
+        },
+        {
+            "born": 1983,
+            "name": "Felicity Jones",
+            "summary": "Felicity Rose Hadley Jones (born 17 October 1983) is an English actress. She started her professional acting career as a child, appearing at age 12 in The Treasure Seekers (1996). Jones went on to play Ethel Hallow for one season in the television show The Worst Witch and its sequel Weirdsister College. She took time off from acting to attend university during her formative years, and has worked steadily since graduating from Wadham College, Oxford in 2006. On radio, she has played the role of Emma Grundy in the BBC's The Archers. In 2008, she appeared in the Donmar Warehouse production of The Chalk Garden.\nSince 2006, Jones has appeared in numerous films, including Northanger Abbey (2007), Brideshead Revisited (2008), Ch\u00e9ri (2009), and The Tempest (2010). Her performance in the 2011 film Like Crazy was met with critical acclaim, garnering her numerous awards, including a special jury prize at the 2011 Sundance Film Festival. In 2014, her performance as Jane Hawking in The Theory of Everything also met with critical acclaim, garnering her nominations for the Golden Globe, SAG, BAFTA and Academy Award for Best Actress. In 2016, she starred in the adventure-thriller Inferno, the fantasy drama A Monster Calls and the Star Wars anthology film Rogue One."
+        },
+        {
+            "born": 1967,
+            "name": "Paul Giamatti",
+            "summary": "Paul Edward Valentine Giamatti (/d\u0292i\u0259\u02c8m\u0251\u02d0ti/; born June 6, 1967) is an American character actor and producer. He was nominated for an Academy Award for Best Supporting Actor for the film Cinderella Man and is also known for his roles in the films Private Parts, Sideways, American Splendor, The Illusionist, Cold Souls, Barney's Version, Big Fat Liar, Love & Mercy, Straight Outta Compton, and Win Win, as well as the miniseries John Adams and Downton Abbey. He has won two Golden Globe Awards, a Primetime Emmy Award and four Screen Actors Guild Awards."
+        },
+        {
+            "born": 1986,
+            "name": "Miko Hughes",
+            "summary": "Miko John Hughes (born February 22, 1986) is an American actor known for his film roles, as a child, as Gage Creed in Pet Sematary (1989), as astronaut Jim Lovell's son Jeffrey in Apollo 13, as a child on the autistic spectrum named Simon opposite Bruce Willis in Mercury Rising (1998), and as Dylan (Heather Langenkamp's son) in Wes Craven's New Nightmare (1994), as well as his recurring role as Aaron on Full House from 1990 to 1995."
+        },
+        {
+            "born": 1980,
+            "name": "Max Elliott Slade",
+            "summary": "Max Elliott Slade is an American former child actor who starred in 3 Ninjas, 3 Ninjas Kick Back, and 3 Ninjas Knuckle Up as the character named Jeffrey Douglas, later nicknamed Colt by his grandfather Mori Tanaka. He was the middle child of the Douglas family in the movies. He was featured as Jay Lovell in Apollo 13, young Mark Goddard in The Sweeper, and young Gil Buckman in Parenthood.\nDemian appeared in Back To The Beach starring Frankie Avalon and Annette Funicello in 1987. Max attended Pasadena High School, where he co-founded a rock and roll club called Three Broken Chords and The Lying Truth. Slade earned a brown belt in Gosoku-ryu karate at age 11.\nSlade began his acting career in 1989 playing Young Gil Buckman in Parenthood. In 1990, he played Kevin Buckman in twelve episodes of Parenthood. In 1991, he played Willy in the made-for-TV film To the Moon, Alice. In 1992, he played Jeffrey Colt Douglas in 3 Ninjas. In 1994, he reprised his role as Jeffrey Colt Douglas in 3 Ninjas Kick Back. In 1995, he reprised his role as Jeffrey Colt Douglas in 3 Ninjas Knuckle Up. Although, the film was shot before Kick Back started production. In 1996, he played Jay Lovell in Apollo 13. Afterwards, he played Mark in the direct-to-TV film The Sweeper."
+        },
+        {
+            "born": 1955,
+            "name": "Gary Sinise",
+            "summary": "Gary Alan Sinise (/s\u0259\u02c8ni\u02d0s/; born March 17, 1955) is an American actor, director and musician. Among other awards, he has won an Emmy Award, a Golden Globe Award, and has been nominated for an Academy Award.\nSinise is known for several memorable roles. These include George Milton in Of Mice and Men, Lieutenant Dan Taylor in Forrest Gump (for which he was nominated for the Academy Award for Best Supporting Actor), Harry S. Truman in Truman (for which he won a Golden Globe), Ken Mattingly in Apollo 13, Detective Jimmy Shaker in Ransom, Detective Mac Taylor in the CBS series CSI: NY (2004\u201313), and George C. Wallace in the television film George Wallace (for which he won an Emmy). In 2016, Sinise began starring in Criminal Minds: Beyond Borders."
+        },
+        {
+            "born": 1955,
+            "name": "Bill Paxton",
+            "summary": "William \"Bill\" Paxton (born May 17, 1955) is an American actor and director. He has appeared in a number of films, including The Terminator (1984), Weird Science (1985), Aliens (1986), True Lies (1994), Apollo 13 (1995), Twister (1996), and Titanic (1997). He also starred in the HBO series Big Love (2006\u20132011) and was nominated for an Emmy Award for the miniseries Hatfields & McCoys."
+        },
+        {
+            "born": 1950,
+            "name": "Ed Harris",
+            "summary": "Edward Allen \"Ed\" Harris (born November 28, 1950) is an American actor, producer, director, and screenwriter. He is known for his performances in films such as The Right Stuff (1983), The Abyss (1989), Glengarry Glen Ross (1992), Nixon (1995), The Rock (1996), Absolute Power (1997), A Beautiful Mind (2001), Enemy at the Gates (2001), Radio (2003), A History of Violence (2005), Gone Baby Gone (2007), The Way Back (2010), Man on a Ledge (2012), Gravity (2013), Snowpiercer (2013), and Run All Night (2015). Harris currently stars in the HBO sci-fi drama series Westworld, as well as Alejandro G. I\u00f1\u00e1rritu's upcoming Starz drama series The One Percent.\nHarris is a three-time nominee of the Academy Award for Best Supporting Actor for his performances in Apollo 13 (1995), The Truman Show (1998), and The Hours (2002). He was nominated for an Academy Award for Best Actor for playing artist Jackson Pollock in his directorial debut Pollock (2000). He also won a Golden Globe Award for playing Senator John McCain in Game Change (2012). In 2015, Harris received a star on the Hollywood Walk of Fame."
+        },
+        {
+            "born": 1954,
+            "name": "Kathleen Quinlan",
+            "summary": "Kathleen Denise Quinlan (born November 19, 1954) is an American film and television actress. She received a Best Actress Golden Globe nomination for the 1977 film I Never Promised You a Rose Garden and a Best Supporting Actress Academy Award nomination for her role in the 1995 film Apollo 13. Her other film appearances include Airport '77 (1977), The Promise (1979), The Runner Stumbles (1979), Sunday Lovers (1980), Sunset (1988), Clara's Heart (1988), The Doors (1991), Breakdown (1997), and Breach (2007)."
+        },
+        {
+            "born": 1978,
+            "name": "Mary Kate Schellhardt",
+            "summary": "Mary Kate Schellhardt (born November 1, 1978) is an American actress. She is known for her roles as Ellen in What's Eating Gilbert Grape (1993), and in Ron Howard's Apollo 13 (1995)."
+        },
+        {
+            "born": 1984,
+            "name": "Emily Ann Lloyd",
+            "summary": "Emily Ann Lloyd (born Emily Ann Morelli; March 27, 1984) is an American actress. She is best known for her role as Susan Lovell, the daughter of Jim Lovell, in Apollo 13."
         },
         {
             "born": 1944,
             "name": "Frank Oz",
-            "summary": "Frank Oz (born Frank Richard Oznowicz; born May 25, 1944) is an English-born American puppeteer, filmmaker, and actor. His career began as a puppeteer, where he performed the Muppet characters of Miss Piggy and Fozzie Bear in The Muppet Show, and Cookie Monster, Bert, and Grover in Sesame Street. He is also known for being the puppeteer and voice of Yoda in the Star Wars films.\nHis work as a director includes Little Shop of Horrors (1986), Dirty Rotten Scoundrels (1988), What About Bob? (1991), In & Out (1997), Bowfinger (1999), The Score (2001) and Death at a Funeral (2007).\n\n"
+            "summary": "Frank Oz (born Frank Richard Oznowicz; born May 25, 1944) is an English-born American puppeteer, filmmaker, and actor. His career began as a puppeteer, where he performed the Muppet characters of Miss Piggy and Fozzie Bear in The Muppet Show, and Cookie Monster, Bert, and Grover in Sesame Street. He is also known for being the puppeteer and voice of Yoda in the Star Wars films.\nHis work as a director includes Little Shop of Horrors (1986), Dirty Rotten Scoundrels (1988), What About Bob? (1991), In & Out (1997), Bowfinger (1999), The Score (2001) and Death at a Funeral (2007)."
         },
         {
-            "born": 1937,
-            "name": "Morgan Freeman",
-            "summary": "Morgan Freeman (born June 1, 1937) is an American actor, producer and narrator. Freeman won an Academy Award in 2005 for Best Supporting Actor with Million Dollar Baby (2004), and he has received Oscar nominations for his performances in Street Smart (1987), Driving Miss Daisy (1989), The Shawshank Redemption (1994) and Invictus (2009). He has also won a Golden Globe Award and a Screen Actors Guild Award.\nFreeman has appeared in many other box office hits, including Glory (1989), Robin Hood: Prince of Thieves (1991), Seven (1995), Deep Impact (1998), The Sum of All Fears (2002), Bruce Almighty (2003), The Dark Knight Trilogy (2005\u20132012), The Lego Movie (2014), and Lucy (2014). He is known for his distinctively smooth, deep voice and his skill at narration. He got his break as part of the cast of the 1970s children's program The Electric Company. Morgan Freeman is ranked as the 3rd highest box office star with over $4.316 billion total box office gross, an average of $74.4 million per film."
+            "born": 1960,
+            "name": "Julianne Moore",
+            "summary": "Julianne Moore (born Julie Anne Smith; December 3, 1960) is an American-British actress, prolific in films since the early 1990s. She is particularly known for her portrayals of emotionally troubled women in both independent and Hollywood films, and has received many accolades, including the 2014 Academy Award for Best Actress.\nAfter studying theatre at Boston University, Moore began her career with a series of television roles. From 1985 to 1988, she was a regular in the soap opera As the World Turns, earning a Daytime Emmy for her performance. Her film debut was in Tales from the Darkside: The Movie (1990), and she continued to play small roles for the next four years \u2013 including in the thriller The Hand That Rocks the Cradle (1992). Moore first received critical attention with Robert Altman's Short Cuts (1993), and successive performances in Vanya on 42nd Street (1994) and Safe (1995) continued this acclaim. Starring roles in the blockbusters Nine Months (1995) and The Lost World: Jurassic Park (1997) established her as a leading actress in Hollywood.\nMoore received considerable recognition in the late 1990s and early 2000s, earning Oscar nominations for Boogie Nights (1997), The End of the Affair (1999), Far from Heaven (2002) and The Hours (2002). In the first of these she played a 1970s pornographic actress, while the other three featured her as an unhappy, mid-20th century housewife. She also had success with the films The Big Lebowski (1998), Magnolia (1999), Hannibal (2001), Children of Men (2006), A Single Man (2009), The Kids Are All Right (2010), and Crazy, Stupid, Love (2011), and won several awards for her portrayal of Sarah Palin in the television film Game Change (2012). The year 2014 was key for Moore, as she gave an Oscar-winning performance as an Alzheimer's patient in Still Alice, was named Best Actress at the Cannes Film Festival for Maps to the Stars, and joined the lucrative Hunger Games series.\nIn addition to acting, Moore has written a series of children's books about a character named \"Freckleface Strawberry\". She is married to director Bart Freundlich, with whom she has two children."
         },
         {
-            "born": 1979,
-            "name": "Rose Byrne",
-            "summary": "Mary Rose Byrne (born 24 July 1979) is an Australian actress. Byrne made her screen debut in 1992 with a small role in the film Dallas Doll. In 2000, she played a leading role in the Australian film The Goddess of 1967, which brought her a Venice Film Festival award for Best Actress. From 2007 to 2012, she played Ellen Parsons in the cable television series Damages, which earned her two Golden Globe and two Emmy nominations. Along with co-star Glenn Close, she appeared in all of the show's fifty-nine episodes. Byrne has also starred in the films Troy, 28 Weeks Later, Knowing, Insidious, X-Men: First Class, X-Men: Apocalypse, as well as the comedies Bridesmaids, Neighbors, and Spy."
-        },
-        {
-            "born": 1952,
-            "name": "John Goodman",
-            "summary": "John Stephen Goodman (born June 20, 1952) is an American actor. Early in his career, he was best known for playing Dan Conner on the ABC TV series Roseanne (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993. He is also a regular collaborator with the Coen brothers on such films as Raising Arizona (1987), Barton Fink (1991), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), and Inside Llewyn Davis (2013). Goodman's voice roles in animated films include Pacha in Disney's The Emperor's New Groove (2000), and Sulley in Pixar's Monsters, Inc. (2001), and Monsters University (2013).\nHis other film performances include lead roles in The Babe (1992), The Flintstones (1994) and 10 Cloverfield Lane (2016) and supporting roles in Coyote Ugly (2000), The Artist (2011), Extremely Loud and Incredibly Close (2011), Argo (2012), Flight (2012), and The Hangover Part III (2013). On television, he has had regular roles on Amazon Studios' Alpha House and on the first season of HBO's Treme, and has been one of the most frequent hosts of Saturday Night Live, as well as guest roles on series such as Community. John Heilpern of Vanity Fair has called him \"among our very finest actors\".\n\n"
-        },
-        {
-            "born": 1957,
-            "name": "Steve Buscemi",
-            "summary": "Steven Vincent \"Steve\" Buscemi (/bu\u02d0\u02c8s\u025bmi/ born December 13, 1957) is an American actor and film director. Buscemi has starred and supported in successful Hollywood and indie films, including Parting Glances, New York Stories, Mystery Train, Reservoir Dogs, Desperado, Con Air, Armageddon, The Grey Zone, Ghost World, Big Fish, and The Sopranos. He is also known for his appearances in many films by the Coen brothers: Miller's Crossing, Barton Fink, The Hudsucker Proxy, Fargo, and The Big Lebowski. Buscemi provides the voice of Randall Boggs in the Monsters, Inc. franchise.\nFrom 2010 to 2014, he portrayed Enoch \"Nucky\" Thompson in the critically acclaimed series Boardwalk Empire, which earned him two Screen Actors Guild Awards, a Golden Globe, and two nominations for an Emmy Award. He made his directorial debut in 1996, with Trees Lounge, in which he also starred. Other works include Animal Factory (2000), Lonesome Jim (2005) and Interview (2007). He has also directed numerous episodes of TV shows, including Homicide: Life on the Street, The Sopranos, Oz, 30 Rock, and Nurse Jackie. He currently hosts the Emmy Award-winning AOL On comedy talk-show Park Bench."
-        },
-        {
-            "name": "Michael Caine",
-            "summary": "Sir Michael Caine, CBE (/ke\u026an/; born Maurice Joseph Micklewhite; 14 March 1933) is an English actor and author. Renowned for his distinctive working class cockney accent, Caine has appeared in over 115 films and is regarded as a British film icon.\nHe made his breakthrough in the 1960s with starring roles in a number of acclaimed British films, including Zulu (1964), The Ipcress File (1965), Alfie (1966), for which he was nominated for an Academy Award, The Italian Job (1969), and Battle of Britain (1969). His most notable roles in the 1970s included Get Carter (1971), The Last Valley, Sleuth (1972), for which he earned his second Academy Award nomination, The Man Who Would Be King (1975), and A Bridge Too Far (1977). He achieved some of his greatest critical success in the 1980s, with Educating Rita (1983) earning him the BAFTA and Golden Globe Award for Best Actor. In 1986, he received an Academy Award for Best Supporting Actor for his performance in Woody Allen's Hannah and Her Sisters.\nCaine played Ebenezer Scrooge in The Muppet Christmas Carol (1992). Having by that time practically retired from acting on the big screen, he enjoyed a career resurgence in the late 1990s, receiving his second Golden Globe Award for his performance in Little Voice in 1998 and receiving his second Academy Award for Best Supporting Actor for The Cider House Rules the following year. Caine played Nigel Powers in the 2002 parody Austin Powers in Goldmember, and Alfred Pennyworth in Christopher Nolan's The Dark Knight Trilogy. He appeared in several other of Nolan's films including The Prestige (2006), Inception (2010), and Interstellar (2014). He also appeared as a supporting character in Alfonso Cuar\u00f3n's Children of Men and Pixar's 2011 film Cars 2. As of 2015, films in which he has starred have grossed over $7.4 billion worldwide. Caine is ranked the ninth highest grossing box office star.\nCaine is one of only two actors nominated for an Academy Award for acting in every decade from the 1960s to 2000s (the other one being Jack Nicholson; Laurence Olivier was also nominated for an acting Academy Award in five different decades, beginning in 1939 and ending in 1978). In 2000, Caine was knighted by Queen Elizabeth II in recognition of his contribution to cinema."
-        },
-        {
-            "born": 1979,
-            "name": "Oscar Isaac",
-            "summary": "Oscar Isaac (born \u00d3scar Isaac Hern\u00e1ndez Estrada; March 9, 1979) is a Guatemalan-American actor and musician. He is known for his lead film roles in the comedy-drama Inside Llewyn Davis (2013), for which he received a Golden Globe Award nomination, the crime drama A Most Violent Year (2014) and the science fiction thriller Ex Machina (2015), in which he played Nathan Hamlet Bateman. In 2006, he portrayed Saint Joseph, husband of Mary, in The Nativity Story. He also portrayed Jos\u00e9 Ramos-Horta, former president of East Timor, in the Australian film Balibo for which he won the AACTA Award for Best Actor in a Supporting Role. He has portrayed characters of many different nationalities and ethnicities, such as mixed European, Egyptian, Polish, English, French, Mexican, East Timorese, Welsh, Indonesian, Greek, Cuban, Israeli, and Armenian.\nHe appeared in Star Wars: The Force Awakens (2015), as X-wing pilot Poe Dameron, and in X-Men: Apocalypse (2016), as the titular mutant supervillain Apocalypse. He also headlined the HBO miniseries Show Me a Hero, as politician Nick Wasicsko in 2015, which earned him the Golden Globe Award for Best Actor \u2013 Miniseries or Television Film. In 2016, Time named Isaac one of the 100 most influential people in the world on the annual Time 100 list."
-        },
-        {
-            "born": 1983,
-            "name": "Lupita Nyong'o",
-            "summary": "Lupita Amondi Nyong'o (Kenyan English: [lu\u02c8pi\u02d0t\u0251\u02d0 \u02c8\u0272\u0254\u02d0\u014b\u0254], Spanish: [lu\u02c8pita \u02c8\u0272o\u014bo (\u02c8\u0272o\u014bgo)]; born March 1, 1983) is a Kenyan-Mexican actress. She was born in Mexico to Kenyan parents and raised in Kenya. She attended college in the United States, earning a bachelor's degree in film and theater studies from Hampshire College.\nNyong'o began her career in Hollywood as a production assistant. In 2008, she made her acting debut with the short film East River and subsequently returned to Kenya to star in the television series Shuga (2009). Also in 2009, she wrote, produced and directed the documentary In My Genes. She then pursued a master's degree in acting from the Yale School of Drama. Soon after her graduation, she had her first feature film role as Patsey in Steve McQueen's historical drama 12 Years a Slave (2013), for which she won the Academy Award for Best Supporting Actress. She became the first Kenyan and first Mexican actress to win an Academy Award.\nNyong'o made her Broadway debut as a teenage orphan in the critically acclaimed play Eclipsed (2015), where she received a Tony Award for Best Actress in a Play nomination for her performance."
-        },
-        {
-            "born": 1964,
-            "name": "Andy Serkis",
-            "summary": "Andrew Clement \"Andy\" Serkis (born 20 April 1964) is an English film actor, director and author. He is best known for his performance capture roles comprising motion capture acting, animation and voice work for such computer-generated characters as Gollum in The Lord of the Rings film trilogy (2001\u20132003) and The Hobbit: An Unexpected Journey (2012), King Kong in the eponymous 2005 film, Caesar in Rise (2011) and Dawn of the Planet of the Apes (2014), Captain Haddock / Sir Francis Haddock in Steven Spielberg's The Adventures of Tintin (2011) and Supreme Leader Snoke in Star Wars: The Force Awakens (2015). Upcoming performance capture roles include Caesar in War for the Planet of the Apes (2017), Supreme Leader Snoke in Star Wars: Episode VIII (2017), and Baloo in Jungle Book (2018).\nSerkis' film work in motion capture has been critically acclaimed. He has received an Empire Award, a National Board of Review Award, two Saturn Awards and a Screen Actors Guild Award for his motion-capture acting. He earned a Golden Globe nomination for his portrayal of serial killer Ian Brady in the British television film Longford (2006) and was nominated for a BAFTA for his portrayal of new wave and punk rock musician Ian Dury in the biopic Sex & Drugs & Rock & Roll (2010). In 2015, he had a small role in Avengers: Age of Ultron. Serkis has his own motion capture workshop, The Imaginarium Studios in London, which he will use for his directorial debut, Jungle Book."
-        },
-        {
-            "born": 1983,
-            "name": "Domhnall Gleeson",
-            "summary": "Domhnall Gleeson (/\u02c8do\u028an\u0259l \u02c8\u0261li\u02d0s\u0259n/; born 12 May 1983) is an Irish actor and writer. He is best known for his portrayal of General Hux in Star Wars: The Force Awakens, Bill Weasley in the Harry Potter film franchise, Caleb in Ex Machina, Captain Andrew Henry in The Revenant and Tim Lake in About Time. He has acted on both stage and screen, earning a Tony Award nomination in 2006 for his role in the Broadway production The Lieutenant of Inishmore. He has performed in several shows at Dublin's Gate Theatre, including adaptations of American Buffalo and Great Expectations.\nGleeson's television roles includes appearances in the television series The Last Furlong (2006) and the comedy sketch show Your Bad Self (2010), as well as the films Six Shooter (2004), Boy Eats Girl (2005), Never Let Me Go (2010), True Grit (2010), Anna Karenina (2012), Dredd (2012), Frank (2014), Calvary (2014) and Unbroken (2014). In 2015, he starred in four films, all of which received multiple Academy Award nominations: Ex Machina, Brooklyn, Star Wars: The Force Awakens and The Revenant."
-        },
-        {
-            "born": 1963,
-            "name": "Brad Pitt",
-            "summary": "William Bradley \"Brad\" Pitt (born December 18, 1963) is an American actor and producer. He has received multiple awards and nominations including an Academy Award as producer under his own company Plan B Entertainment.\nPitt first gained recognition as a cowboy hitchhiker in the road movie Thelma & Louise (1991). His first leading roles in big-budget productions came with the dramas A River Runs Through It (1992) and Legends of the Fall (1994), and Interview with the Vampire (1994). He gave critically acclaimed performances in the crime thriller Seven and the science fiction film 12 Monkeys (both 1995), the latter earning him a Golden Globe Award for Best Supporting Actor and an Academy Award nomination. Pitt starred in the cult film Fight Club (1999) and the major international hit Ocean's Eleven (2001) and its sequels, Ocean's Twelve (2004) and Ocean's Thirteen (2007). His greatest commercial successes have been Troy (2004), Mr. & Mrs. Smith (2005), and World War Z (2013). Pitt received his second and third Academy Award nominations for his leading performances in The Curious Case of Benjamin Button (2008) and Moneyball (2011). He produced The Departed (2006) and 12 Years a Slave (2013), both of which won the Academy Award for Best Picture, and also The Tree of Life, Moneyball, and The Big Short (2015), all of which garnered Best Picture nominations.\nAs a public figure, Pitt has been cited as one of the most influential and powerful people in the American entertainment industry, as well as the world's most attractive man, by various media outlets. His personal life is also the subject of wide publicity. Divorced from actress Jennifer Aniston, to whom he was married for five years, he has been married to actress Angelina Jolie since 2014. They have six children together, three of whom were adopted internationally. In September 2016, Jolie filed for divorce from Pitt."
-        },
-        {
-            "born": 1977,
-            "name": "Scoot McNairy",
-            "summary": "John Marcus \"Scoot\" McNairy (born November 11, 1977) is an American actor and producer known for his roles in films such as Monsters, Argo, Killing Them Softly, 12 Years a Slave, Frank, Gone Girl and Batman v Superman: Dawn of Justice. He currently stars in the AMC period drama Halt and Catch Fire."
-        },
-        {
-            "born": 1981,
-            "name": "Elijah Wood",
-            "summary": "Elijah Jordan Wood (born January 28, 1981) is an American actor, voice actor, producer, and DJ. He made his film debut with a minor part in Back to the Future Part II (1989). Landing a succession of larger roles, he was critically acclaimed as a child actor by age nine, being nominated for several Young Artist Awards. As a child, he starred in the films Radio Flyer (1992), The Good Son (1993), North (1994), and Flipper (1996).\nHe began to take on teenage roles in the films The Ice Storm (1997), Deep Impact and The Faculty (both 1998). He is best known for his high-profile leading role as Frodo Baggins in Peter Jackson's epic film trilogy The Lord of the Rings (2001\u201303). Since then, he has chosen varied roles in films such as Eternal Sunshine of the Spotless Mind (2004), Sin City, Green Street, Everything Is Illuminated (all 2005), and Bobby (2006).\nWood provided the voice of Mumble in the award-winning animated musical films Happy Feet (2006) and Happy Feet Two (2011), as well as the eponymous lead in the Tim Burton-produced action/science fiction film 9 (2009). In 2005, he started his own record label, Simian Records. He did the voice acting for Spyro in the Legend of Spyro trilogy. In 2012, he began voicing Beck in the animated series Tron: Uprising, Sigma in the tenth season of the Rooster Teeth series, Red vs. Blue, and Wirt in the Cartoon Network miniseries Over the Garden Wall (2014). From 2011-14, Wood played the role of Ryan Newman in FX's cult dark comedy, Wilfred. As of late autumn 2016, he co-stars in the BBC America series Dirk Gently's Holistic Detective Agency.\n\n"
-        },
-        {
-            "name": "Ian McKellen",
-            "summary": "Sir Ian Murray McKellen, CH, CBE (born 25 May 1939) is an English actor. He is the recipient of six Laurence Olivier Awards, a Tony Award, a Golden Globe Award, a Screen Actors Guild Award, a BIF Award, two Saturn Awards, four Drama Desk Awards and two Critics' Choice Awards. He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.\nMcKellen's work spans genres ranging from Shakespearean and modern theatre to popular fantasy and science fiction. The BBC states his \"performances have guaranteed him a place in the canon of English stage and film actors\". A recipient of every major theatrical award in the UK, McKellen is regarded as a British cultural icon. His most well known film roles include Gandalf in The Lord of the Rings and The Hobbit trilogies and Magneto in the X-Men films.\nMcKellen was appointed Commander of the Order of the British Empire in 1979, was knighted by Elizabeth II in 1991 for services to the performing arts, and made a Companion of Honour for services to drama and to equality in the Queen's 2008 New Year Honours. He has been openly gay since 1988, and continues to be a champion for LGBT social movements worldwide. He was made a Freeman of the City of London in October 2014."
-        },
-        {
-            "born": 1977,
-            "name": "Tom Hardy",
-            "summary": "Edward Thomas \"Tom\" Hardy (born 15 September 1977) is an English actor and producer. He made his debut in Ridley Scott's 2001 action film Black Hawk Down. Hardy's other notable films include the science fiction film Star Trek: Nemesis (2002), the crime film RocknRolla (2008), biographical psychological drama Bronson (2008), science fiction thriller Inception (2010), sports drama Warrior (2011), Cold War espionage film Tinker Tailor Soldier Spy (2011), crime drama Lawless (2012), drama Locke (2013), mobster film The Drop (2014), and the biographical western thriller The Revenant (2015), for which he received an Academy Award nomination for Best Supporting Actor. He also portrayed Bane in the superhero film The Dark Knight Rises (2012), \"Mad\" Max Rockatansky in the post-apocalyptic film Mad Max: Fury Road (2015), and both Kray twins in the crime thriller Legend (2015).\nHardy's television roles include the HBO war drama miniseries Band of Brothers (2001), the BBC historical drama miniseries The Virgin Queen (2005), ITV's Wuthering Heights (2008), the Sky 1 drama series The Take (2009), and the BBC British historical crime drama television series Peaky Blinders (2013).\nHardy has also performed on British and American stages. He was nominated for the Laurence Olivier Award for Most Promising Newcomer for his role as Skank in the 2003 production of In Arabia We'd All Be Kings, and was awarded the 2003 London Evening Standard Theatre Award for Outstanding Newcomer for his performances in both In Arabia We'd All be Kings and for his role as Luca in Blood. He starred in the 2007 production of The Man of Mode and received positive reviews for his role in the 2010 Philip Seymour Hoffman-directed play The Long Red Road."
-        },
-        {
-            "name": "Tara Reid",
-            "summary": "Tara Donna Reid is an American actress. She is known for playing Vicky in the films American Pie (1999), American Pie 2 (2001) and American Reunion (2012). In 2013, she starred as April Wexler in the television film Sharknado, and went on to reprise the role in three sequels (2014\u201316).\nReid made her film debut in A Return to Salem's Lot in 1987. Her other film appearances include The Big Lebowski (1998), Urban Legend (1998), Dr. T & the Women (2000), Josie and the Pussycats (2001), Van Wilder (2002), My Boss's Daughter (2003), and Alone in the Dark (2005). She had her own reality travel show on the E! network called Taradise in 2005, and was a housemate on the 2013 British reality series Celebrity Big Brother 8."
-        },
-        {
-            "born": 1974,
-            "name": "Alyson Hannigan",
-            "summary": "Alyson Lee Hannigan (born March 24, 1974) is an American actress. She is best known for her roles as Willow Rosenberg on the television series Buffy the Vampire Slayer (1997\u20132003), Lily Aldrin on the sitcom How I Met Your Mother (2005\u20132014), and Michelle Flaherty in the American Pie film series (1999\u20132012)."
-        },
-        {
-            "born": 1978,
-            "name": "Jason Biggs",
-            "summary": "Jason Matthew Biggs (born May 12, 1978) is an American actor and comedian best known for his roles as Jim Levenstein in the American Pie series of teen comedy films, providing the voice of Leonardo in Nickelodeon's Teenage Mutant Ninja Turtles television series, a role he held until he was replaced near the end of the show's second season, and Larry Bloom in Orange Is the New Black. He also starred in Loser and Saving Silverman.\nHe initially gained recognition from the soap opera As the World Turns for the role of Pete Wendell for which he was nominated for the Daytime Emmy Award for Outstanding Younger Actor in a Drama Series in 1995."
-        },
-        {
-            "born": 1976,
-            "name": "Diane Kruger",
-            "summary": "Diane Kruger (German pronunciation: [di\u02c8a:n\u0259 \u02c8kru:\u0261\u0250]; born Diane Heidkr\u00fcger; 15 July 1976) is a German actress and former fashion model. She is known for roles such as Helen in the epic war film Troy (2004), Dr. Abigail Chase in the adventure/heist film National Treasure (2004) and its sequel (2007), Bridget von Hammersmark in Quentin Tarantino's war film Inglourious Basterds (2009), Anna in the sci-fi drama Mr. Nobody (2009), Gina in the psychological thriller film Unknown (2011), Marie Antoinette in the French-language film Farewell, My Queen (2012) and Jessie in the drama-thriller Disorder (2015). She also starred as Detective Sonya Cross in the FX crime drama series The Bridge."
-        },
-        {
-            "born": 1939,
-            "name": "Harvey Keitel",
-            "summary": "Harvey Keitel (/ka\u026a\u02c8t\u025bl/ ky-TEL; born May 13, 1939) is an American actor and producer. An Oscar and Golden Globe Award nominee, he has appeared in films such as Martin Scorsese's Mean Streets and Taxi Driver, Ridley Scott's The Duellists and Thelma & Louise, Peter Yates' Mother, Jugs & Speed, Quentin Tarantino's Reservoir Dogs and Pulp Fiction, Jane Campion's The Piano, Abel Ferrara's Bad Lieutenant, Robert Rodriguez's From Dusk till Dawn, James Mangold's Cop Land, Paolo Sorrentino's Youth. Along with actors Al Pacino and Ellen Burstyn, he is the current co-president of the Actors Studio."
-        },
-        {
-            "born": 1976,
-            "name": "Seann William Scott",
-            "summary": "Seann William Scott (born October 3, 1976) is an American actor and producer. He played Steve Stifler in the American Pie series. He has also starred in other films, including Final Destination (2000), Road Trip (2000), Dude, Where's My Car? (2000), Evolution (2001), The Rundown (2003), The Dukes of Hazzard (2005), Role Models (2008), Cop Out (2010), Goon (2011) and the voice of Crash in the Ice Age series."
-        },
-        {
-            "born": 1980,
-            "name": "Thomas Ian Nicholas",
-            "summary": "Thomas Ian Nicholas (born July 10, 1980) is an American film actor, singer, musician, producer, director, and writer. Nicholas is best known for playing Henry Rowengartner in Rookie of the Year, Walt Disney in Walt Before Mickey and Kevin Myers in the American Pie film series."
-        },
-        {
-            "born": 1980,
-            "name": "Eddie Kaye Thomas",
-            "summary": "Eddie Kaye Thomas (born October 31, 1980) is an American film, television, and stage actor and comedian who rose to prominence as Paul Finch in the American Pie film series. He is also known for his roles as Andy Rosenberg in the Harold & Kumar series and as Jeff Woodcock in 'Til Death. He is currently starring in the CBS show Scorpion as Dr. Tobias \"Toby\" Curtis."
-        },
-        {
-            "born": 1959,
-            "name": "Sean Bean",
-            "summary": "Shaun Mark Bean (born 17 April 1959), known professionally as Sean Bean, is an English actor. After graduating from the Royal Academy of Dramatic Art, he made his professional debut in a theatre production of Romeo and Juliet in 1983. Retaining his distinctive Yorkshire accent, he first found mainstream success for his portrayal of Richard Sharpe in the ITV series Sharpe. Bean has since garnered further recognition for his performance as Ned Stark in the HBO epic fantasy series Game of Thrones, as well as roles in the BBC anthology series Accused and the ITV historical drama series Henry VIII. His most prominent film role was Boromir in The Lord of the Rings trilogy (2001\u201303).\nOther roles include Alec Trevelyan in the James Bond film GoldenEye (1995) and Odysseus in Troy (2004), as well as roles in Patriot Games (1992), Ronin (1998), National Treasure (2004), North Country (2005), The Island (2005), Silent Hill (2006), Black Death (2010), Jupiter Ascending (2015) and The Martian (2015). As a voice actor, Bean has been featured in the video game The Elder Scrolls IV: Oblivion and the drama The Canterbury Tales, among several others. He has received several awards during his career and won an International Emmy for Best Actor. He has also been nominated for a BAFTA and Saturn Award."
-        },
-        {
-            "born": 1979,
-            "name": "Mena Suvari",
-            "summary": "Mena Alexandra Suvari (born February 13, 1979) is an American actress, fashion designer and model. Shortly after beginning her career as a model, Suvari appeared in guest roles on such 1990s television shows as Boy Meets World and High Incident.\nShe made her film debut in the drama Nowhere (1997). She achieved international fame for her roles as Angela Hayes in American Beauty and Heather Gardner in American Pie (both 1999), the former earning her a BAFTA Award nomination. She reprised her role as Heather in American Pie 2 (2001) and American Reunion (2012). She also appeared in The Rage: Carrie 2 (1999), Loser (2000), Sugar & Spice (2001), Spun (2002), Trauma (2004), and the HBO drama series Six Feet Under (2001\u201305). Suvari is a model for Lanc\u00f4me cosmetics and print ads for Lanc\u00f4me Paris Adapt\u00eeve and has been featured in several fashion blogs and magazines such as Vogue. She is a long-time supporter and activist for the African relief organization, the African Medical and Research Foundation."
-        },
-        {
-            "born": 1975,
-            "name": "Tobey Maguire",
-            "summary": "Tobias Vincent \"Tobey\" Maguire (born June 27, 1975) is an American actor and producer. He began his career in the late 1980s. His first appearance in a feature film was a non-speaking part in The Wizard (1989). He is known for playing the title character in Sam Raimi's Spider-Man film trilogy (2002, 2004, and 2007), as well as for his roles in Pleasantville (1998), The Cider House Rules (1999), Wonder Boys (2000), Seabiscuit (2003), The Good German (2006), Brothers (2009), and The Great Gatsby (2013). He has been nominated for the Screen Actors Guild and Golden Globe Awards, and has received two Saturn Awards, including one for Best Actor."
-        },
-        {
-            "born": 1978,
-            "name": "James Franco",
-            "summary": "James Edward Franco (born April 19, 1978) is an American actor and filmmaker. His first prominent acting role was the lead character Daniel Desario on the short-lived cult hit television program Freaks and Geeks. He later played the title character in the TV biographical film James Dean (2001), for which he won a Golden Globe Award. For his role in 127 Hours (2010), Franco was nominated for an Academy Award for Best Actor. He is also known for his roles in Spider-Man, Pineapple Express (2008), Rise of the Planet of the Apes (2011), Spring Breakers (2012), Oz the Great and Powerful (2013), and King Cobra (2016) and other films, as well as TV roles in General Hospital and 11.22.63. In 2014, he made his Broadway debut in Of Mice and Men.\nFranco volunteers for the Art of Elysium charity, and has also taught film classes at New York University, the University of Southern California, UCLA, and Palo Alto High School."
-        },
-        {
-            "born": 1955,
-            "name": "Willem Dafoe",
-            "summary": "William J. \"Willem\" Dafoe (born July 22, 1955) is an American actor. A member of the experimental theatre company the Wooster Group, he was nominated for the Academy Award for Best Supporting Actor for his roles as Elias in Oliver Stone's Platoon (1986) and Max Schreck in the comedy-horror film Shadow of the Vampire (2000). His other film appearances include The Last Temptation of Christ (1988), The English Patient (1996), American Psycho (2000) and the Spider-Man trilogy (2002\u201307). He has also had voice roles in Finding Nemo and its sequel (2003\u201316), Fantastic Mr. Fox (2009) and the forthcoming adaptation of Death Note (2017)."
-        },
-        {
-            "born": 1982,
-            "name": "Kirsten Dunst",
-            "summary": "Kirsten Caroline Dunst (/\u02c8k\u026a\u0259rst\u0259n/; born April 30, 1982) is an American actress. She made her film debut in Woody Allen's short film Oedipus Wrecks for the anthology film New York Stories (1989). At the age of twelve, Dunst gained widespread recognition as Claudia in Interview with the Vampire (1994), a role for which she was nominated for a Golden Globe Award for Best Supporting Actress. She appeared in Little Women the same year and in Jumanji the following year. After a recurring role in the NBC medical drama ER (1996\u201397) as Charlie Chemingo and starring in films such as Wag the Dog (1997), Small Soldiers (1998), the English dub of Kiki's Delivery Service (1998), and The Virgin Suicides (1999), Dunst transitioned into romantic comedies and comedy-dramas, starring in Drop Dead Gorgeous (1999), Bring It On (2000), Get Over It and Crazy/Beautiful (both released in 2001).\nDunst achieved fame for her portrayal of Mary Jane Watson in Sam Raimi's Spider-Man trilogy (2002\u201307). Since then, her films have included the romantic comedy Wimbledon (2004), the science fiction romantic comedy-drama Eternal Sunshine of the Spotless Mind (2004) and Cameron Crowe's romantic tragicomedy Elizabethtown (2005). She played the title role in Sofia Coppola's biographical film Marie Antoinette (2006) and starred in the comedy film How to Lose Friends & Alienate People (2008). She won the Best Actress Award at the Cannes Film Festival and the Saturn Award for Best Actress for her performance in Lars von Trier's Melancholia (2011). She starred in the second season of the television series Fargo in 2015, playing the role of Peggy Blumquist, a slightly delusional and neurotic hairdresser. Her performance garnered widespread critical acclaim, leading to her winning the Critics' Choice Television Award for Best Actress and being nominated for the Golden Globe Award for Best Actress and the Primetime Emmy Award for Outstanding Lead Actress in a Limited Series or Movie.\nIn 2001, Dunst made her singing debut in the film Get Over It, in which she performed two songs. She also sang the jazz song \"After You've Gone\" for the end credits of the film The Cat's Meow (2001)."
-        },
-        {
-            "born": 1959,
-            "name": "Allison Janney",
-            "summary": "Allison Brooks Janney (born November 19, 1959) is an American actress. A seven-time Primetime Emmy Award winner for her television work, her first four Emmy wins were for her role as C. J. Cregg on the NBC drama The West Wing (1999\u20132006). In 2014, she won the Emmy for Outstanding Guest Actress in a Drama Series for her role as Margaret Scully on the Showtime series Masters of Sex. In 2014 and 2015, she won the Emmy for Outstanding Supporting Actress in a Comedy Series for her role as Bonnie Plunkett on the CBS sitcom Mom.\nJanney, who won a scholarship to study at the Royal Academy of Dramatic Art in the summer of 1984, made her Broadway debut in the 1996 revival of Present Laughter. She won Drama Desk Awards for the 1997 Broadway revival of A View From the Bridge, and the 2009 original Broadway production of the musical 9 to 5. She also received Tony Award nominations for both. Her film roles include Primary Colors (1998), Drop Dead Gorgeous (1999), 10 Things I Hate About You (1999), American Beauty (1999), The Hours (2002), Finding Nemo (2003), Hairspray (2007), Juno (2007), The Help (2011), The Way, Way Back (2013), Get On Up (2014), Spy (2015), Minions (2015), Finding Dory (2016) and Tallulah (2016)."
-        },
-        {
-            "born": 1986,
-            "name": "Teresa Palmer",
-            "summary": "Teresa Mary Palmer (born 26 February 1986) is an Australian actress, writer, producer and model who made her film debut in the suicide drama 2:37. She starred in the 2013 film Warm Bodies as a young woman who falls in love with a zombie, and as Rebecca in the 2016 horror film Lights Out. She has further appeared in films such as The Sorcerer's Apprentice, I Am Number Four, Take Me Home Tonight, Love and Honor, The Ever After (which she co-wrote and co-produced with her husband, Mark Webber), Kill Me Three Times, the 2015 remake of Point Break, Triple 9 and the Mel Gibson-directed war film Hacksaw Ridge."
-        },
-        {
-            "born": 1971,
-            "name": "Rob Corddry",
-            "summary": "Robert William \"Rob\" Corddry (born February 4, 1971) is an American actor and comedian. He is known for his work as a correspondent on The Daily Show with Jon Stewart (2002\u20132006) and for his starring role in the comedy film Hot Tub Time Machine (2010). He is also the creator and star of the Adult Swim comedy series Childrens Hospital and won his first and second Emmy Awards in September 2012 and September 2013. Corddry currently co-stars in the HBO series Ballers."
-        },
-        {
-            "born": 1987,
-            "name": "Jake Abel",
-            "summary": "Jacob Allen Abel (born November 18, 1987) is an American actor and singer who is known for playing Adam Milligan in the CW series Supernatural (2009\u201310), Luke Castellan in the film adaptation of Percy Jackson & the Olympians: The Lightning Thief (2010), and its sequel, Percy Jackson: Sea of Monsters (2013), Mark James in the film adaptation of I Am Number Four (2011), and Ian O'Shea in The Host (2013)."
-        },
-        {
-            "name": "Bruce Willis",
-            "summary": "Walter Bruce Willis (born March 19, 1955) is an American actor, producer, and singer. His career began on the Off-Broadway stage and then in television in the 1980s, most notably as David Addison in Moonlighting (1985\u20131989). He is known for his role of John McClane in the Die Hard series. He has appeared in over 60 films, including Striking Distance (1993), Color of Night (1994), Pulp Fiction (1994), 12 Monkeys (1995), The Fifth Element (1997), Armageddon (1998), The Sixth Sense (1999), Unbreakable (2000), Sin City (2005), Red (2010), The Expendables 2 (2012), and Looper (2012).\nWillis married actress Demi Moore in 1987, and they had three daughters, including Rumer, before their divorce in 2000. Since 2009, he has been married to model Emma Heming, with whom he has two daughters."
-        },
-        {
-            "name": "Joseph Gordon-Levitt",
-            "summary": "Joseph Leonard Gordon-Levitt (/\u02c8l\u025bv\u1d7bt/; born February 17, 1981) is an American actor and filmmaker. As a child actor, he appeared in the films A River Runs Through It, Angels in the Outfield and 10 Things I Hate About You, and as Tommy Solomon in the TV series 3rd Rock from the Sun. He took a break from acting to study at Columbia University, but dropped out in 2004 to pursue acting again. He has since starred in 500 Days of Summer, Inception, Hesher, 50/50, Premium Rush, The Dark Knight Rises, Brick, Looper, The Lookout, Manic, Lincoln, Mysterious Skin and G.I. Joe: The Rise of Cobra. He starred as Philippe Petit in the Robert Zemeckis-directed film The Walk (2015), and as Edward Snowden in the Oliver Stone film Snowden (2016).\nHe also founded the online production company hitRECord in 2004 and has hosted his own TV series, HitRecord on TV, since January 2014. In 2013, Gordon-Levitt made his feature film directing and screenwriting debut with Don Jon, a comedy film in which he also stars. He previously directed and edited two short films, both of which were released in 2010: Morgan M. Morgansen's Date with Destiny and Morgan and Destiny's Eleventeenth Date: The Zeppelin Zoo."
-        },
-        {
-            "born": 1956,
-            "name": "Christoph Waltz",
-            "summary": "Christoph Waltz (German pronunciation: [\u02c8kr\u026ast\u0254f \u02c8valts]; born 4 October 1956) is an Austrian actor. He is best known for his works with American filmmaker Quentin Tarantino, receiving acclaim for portraying SS-Standartenf\u00fchrer Hans Landa in Inglourious Basterds (2009) and bounty hunter Dr. King Schultz in Django Unchained (2012). For each performance, he won an Academy Award, a BAFTA Award, and a Golden Globe Award for Best Supporting Actor. Additionally, he received the Best Actor Award at the Cannes Film Festival and a Screen Actors Guild Award for his portrayal of Landa.\nHe also portrayed computer genius Qohen Leth in the sci-fi film The Zero Theorem (2013), American plagiarist Walter Keane in the biographical film Big Eyes (2014), and 007's nemesis and head of Spectre Ernst Stavro Blofeld in Spectre (2015), the twenty-fourth James Bond film."
-        },
-        {
-            "born": 1958,
-            "name": "Miranda Richardson",
-            "summary": "Miranda Jane Richardson (born 3 March 1958) is an English stage, film and television actress. She made her film debut playing Ruth Ellis in Dance with a Stranger in 1985 and went on to receive Academy Award nominations for Damage (1992) and Tom & Viv (1994). For Damage, she won the BAFTA Award for Best Supporting Actress. She has also won Golden Globe Awards for Enchanted April (1992) and the TV film Fatherland (1994).\nRichardson began her career on stage and made her West End debut in the 1980 play Moving. She received a Best Actress Olivier Award nomination for the 1987 Royal Court production of A Lie of the Mind. On television, she has starred in Blackadder (1986\u201389), A Dance to the Music of Time (1997), Merlin (1998), The Lost Prince (2003), and the sitcom The Life and Times of Vivienne Vyle (2007).\nHer other films include Empire of the Sun (1987), The Crying Game (1992), The Apostle (1997), Sleepy Hollow (1999), Snow White: The Fairest of Them All (2001), Spider (2002), Harry Potter and the Goblet of Fire (2005), and Made in Dagenham (2010).\n\n"
-        },
-        {
-            "born": 1963,
-            "name": "Til Schweiger",
-            "summary": "Tilman Valentin \"Til\" Schweiger (German pronunciation: [\u02c8t\u026alman \u02c8val\u0259nti\u02d0n \u02c8\u0283va\u026a\u0261\u0250]; born 19 December 1963) is a German actor, director, and producer. He runs his own production company, Barefoot Films, in Berlin."
+            "born": 1943,
+            "name": "Ben Kingsley",
+            "summary": "Sir Ben Kingsley (born Krishna Bhanji; 31 December 1943) is an English actor with a career spanning over 40 years. He has won an Oscar, Grammy, BAFTA, two Golden Globes and a Screen Actors Guild Award. He is known for his starring role as Mohandas Gandhi in the 1982 film Gandhi, for which he won the Academy Award for Best Actor. He is also known for his performances in the films Schindler's List (1993), Twelfth Night (1996), Sexy Beast (2000), Lucky Number Slevin (2006), Shutter Island (2010), Prince of Persia: The Sands of Time (2010), Hugo (2011), and Iron Man 3 (2013).\nKingsley was made a Knight Bachelor at Buckingham Palace in 2002 for services to the British film industry. In 2010, he was awarded a star on the Hollywood Walk of Fame. In 2013 he received the BAFTA Los Angeles Britannia Award for Worldwide Contribution to Filmed Entertainment."
         }
     ],
     "relations": [
@@ -228,157 +249,87 @@ var bacon = {
             "parties": [
                 "Mark Hamill",
                 "Harrison Ford",
-                "Carrie Fisher"
+                "Carrie Fisher",
+                "Anthony Daniels",
+                "Mark Hamill",
+                "Harrison Ford",
+                "Carrie Fisher",
+                "Anthony Daniels",
+                "Mark Hamill",
+                "Harrison Ford",
+                "Carrie Fisher",
+                "Anthony Daniels"
             ]
         },
         {
-            "date": 2003.4166666666667,
-            "name": "Finding Nemo",
+            "date": 1994.5833333333333,
+            "name": "Forrest Gump",
             "parties": [
-                "Willem Dafoe",
-                "Allison Janney"
+                "Tom Hanks",
+                "Gary Sinise",
+                "Sally Field",
+                "Tom Hanks",
+                "Gary Sinise",
+                "Sally Field"
             ]
         },
         {
-            "date": 1998.1666666666667,
-            "name": "The Big Lebowski",
+            "date": 1993.9166666666667,
+            "name": "Schindler's List",
             "parties": [
-                "John Goodman",
-                "Steve Buscemi",
-                "Julianne Moore",
-                "Tara Reid"
+                "Ben Kingsley",
+                "Embeth Davidtz"
             ]
         },
         {
-            "date": 2002,
-            "name": "The Lord of the Rings: The Fellowship of the Ring",
+            "date": 1995.5,
+            "name": "Apollo 13",
             "parties": [
-                "Elijah Wood",
-                "Ian McKellen",
-                "Sean Bean"
+                "Tom Hanks",
+                "Bill Paxton",
+                "Kevin Bacon",
+                "Gary Sinise",
+                "Ed Harris",
+                "Kathleen Quinlan",
+                "Mary Kate Schellhardt",
+                "Emily Ann Lloyd",
+                "Miko Hughes",
+                "Max Elliott Slade",
+                "Tom Hanks",
+                "Bill Paxton",
+                "Kevin Bacon",
+                "Gary Sinise",
+                "Ed Harris",
+                "Kathleen Quinlan",
+                "Mary Kate Schellhardt",
+                "Emily Ann Lloyd",
+                "Miko Hughes",
+                "Max Elliott Slade",
+                "Tom Hanks",
+                "Bill Paxton",
+                "Kevin Bacon",
+                "Gary Sinise",
+                "Ed Harris",
+                "Kathleen Quinlan",
+                "Mary Kate Schellhardt",
+                "Emily Ann Lloyd",
+                "Miko Hughes",
+                "Max Elliott Slade"
             ]
         },
         {
-            "date": 2004,
-            "name": "The Lord of the Rings: The Return of the King",
+            "date": 2008.3333333333333,
+            "name": "Iron Man",
             "parties": [
-                "Elijah Wood",
-                "Ian McKellen",
-                "Andy Serkis"
-            ]
-        },
-        {
-            "date": 2008.5833333333333,
-            "name": "The Dark Knight",
-            "parties": [
-                "Michael Caine",
-                "Morgan Freeman"
-            ]
-        },
-        {
-            "date": 2014.6666666666667,
-            "name": "Sin City: A Dame to Kill For",
-            "parties": [
-                "Joseph Gordon-Levitt",
-                "Bruce Willis"
-            ]
-        },
-        {
-            "date": 1994.75,
-            "name": "The Shawshank Redemption",
-            "parties": [
-                "Morgan Freeman"
-            ]
-        },
-        {
-            "date": 2007.5,
-            "name": "Ocean's Thirteen",
-            "parties": [
-                "Brad Pitt"
-            ]
-        },
-        {
-            "date": 1999.8333333333333,
-            "name": "Fight Club",
-            "parties": [
-                "Brad Pitt"
-            ]
-        },
-        {
-            "date": 2002.4166666666667,
-            "name": "Spider-Man",
-            "parties": [
-                "Tobey Maguire",
-                "Willem Dafoe",
-                "Kirsten Dunst",
-                "James Franco"
-            ]
-        },
-        {
-            "date": 2004.5,
-            "name": "Spider-Man 2",
-            "parties": [
-                "Tobey Maguire",
-                "Kirsten Dunst",
-                "James Franco",
-                "Willem Dafoe"
-            ]
-        },
-        {
-            "date": 2007.4166666666667,
-            "name": "Spider-Man 3",
-            "parties": [
-                "Tobey Maguire",
-                "Kirsten Dunst",
-                "James Franco"
-            ]
-        },
-        {
-            "date": 2001.9166666666667,
-            "name": "Monsters, Inc.",
-            "parties": [
-                "John Goodman",
-                "Steve Buscemi",
-                "Frank Oz"
-            ]
-        },
-        {
-            "date": 2004.4166666666667,
-            "name": "Troy",
-            "parties": [
-                "Brad Pitt",
-                "Sean Bean",
-                "Diane Kruger",
-                "Rose Byrne"
-            ]
-        },
-        {
-            "date": 2005.9166666666667,
-            "name": "Harry Potter and the Goblet of Fire",
-            "parties": [
-                "Miranda Richardson"
-            ]
-        },
-        {
-            "date": 1994.8333333333333,
-            "name": "Pulp Fiction",
-            "parties": [
-                "Bruce Willis",
-                "Harvey Keitel"
-            ]
-        },
-        {
-            "date": 2006.25,
-            "name": "Ice Age: The Meltdown",
-            "parties": [
-                "Seann William Scott"
-            ]
-        },
-        {
-            "date": 1998.4166666666667,
-            "name": "Fear and Loathing in Las Vegas",
-            "parties": [
-                "Tobey Maguire"
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Clark Gregg",
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Clark Gregg",
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Clark Gregg"
             ]
         },
         {
@@ -388,323 +339,462 @@ var bacon = {
                 "Mark Hamill",
                 "Harrison Ford",
                 "Carrie Fisher",
+                "Anthony Daniels",
+                "Frank Oz",
+                "Mark Hamill",
+                "Harrison Ford",
+                "Carrie Fisher",
+                "Anthony Daniels",
                 "Frank Oz"
             ]
         },
         {
-            "date": 2003.5833333333333,
-            "name": "Lara Croft Tomb Raider: The Cradle of Life",
+            "date": 2012.5,
+            "name": "The Amazing Spider-Man",
             "parties": [
-                "Til Schweiger"
-            ]
-        },
-        {
-            "date": 2004.9166666666667,
-            "name": "National Treasure",
-            "parties": [
-                "Diane Kruger",
-                "Sean Bean",
-                "Harvey Keitel"
-            ]
-        },
-        {
-            "date": 1999.5833333333333,
-            "name": "American Pie",
-            "parties": [
-                "Jason Biggs",
-                "Thomas Ian Nicholas",
-                "Alyson Hannigan",
-                "Tara Reid",
-                "Eddie Kaye Thomas",
-                "Seann William Scott"
-            ]
-        },
-        {
-            "date": 1999.9166666666667,
-            "name": "Sleepy Hollow",
-            "parties": [
-                "Miranda Richardson"
-            ]
-        },
-        {
-            "date": 2001.6666666666667,
-            "name": "American Pie 2",
-            "parties": [
-                "Jason Biggs",
-                "Thomas Ian Nicholas",
-                "Seann William Scott",
-                "Eddie Kaye Thomas",
-                "Alyson Hannigan",
-                "Tara Reid",
-                "Mena Suvari",
-                "Jason Biggs",
-                "Thomas Ian Nicholas",
-                "Seann William Scott",
-                "Eddie Kaye Thomas",
-                "Alyson Hannigan",
-                "Tara Reid",
-                "Mena Suvari"
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Sally Field",
+                "Irrfan Khan",
+                "Campbell Scott",
+                "Embeth Davidtz",
+                "Chris Zylka"
             ]
         },
         {
             "date": 2005.9166666666667,
             "name": "Zathura: A Space Adventure",
             "parties": [
+                "Jonah Bobo",
                 "Frank Oz"
             ]
         },
         {
-            "date": 2009.6666666666667,
-            "name": "Inglourious Basterds",
+            "date": 1998.3333333333333,
+            "name": "Mercury Rising",
             "parties": [
-                "Brad Pitt",
-                "Christoph Waltz",
-                "Michael Fassbender",
-                "Diane Kruger",
-                "Til Schweiger"
+                "Miko Hughes"
             ]
         },
         {
-            "date": 2010.5833333333333,
-            "name": "The Sorcerer's Apprentice",
+            "date": 2010.3333333333333,
+            "name": "Iron Man 2",
             "parties": [
-                "Teresa Palmer"
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Don Cheadle",
+                "Scarlett Johansson",
+                "Samuel L. Jackson",
+                "Clark Gregg"
             ]
         },
         {
-            "date": 2010.5833333333333,
-            "name": "Inception",
+            "date": 2011.3333333333333,
+            "name": "Thor",
             "parties": [
-                "Joseph Gordon-Levitt",
-                "Tom Hardy",
-                "Michael Caine"
+                "Chris Hemsworth",
+                "Tom Hiddleston",
+                "Stellan Skarsg\u00e5rd",
+                "Clark Gregg"
             ]
         },
         {
-            "date": 2010.1666666666667,
-            "name": "Percy Jackson & the Olympians: The Lightning Thief",
+            "date": 2004.5,
+            "name": "The Notebook",
             "parties": [
-                "Jake Abel",
-                "Sean Bean"
+                "Ryan Gosling",
+                "Ryan Gosling"
             ]
         },
         {
-            "date": 2010.8333333333333,
-            "name": "Megamind",
+            "date": 2009.1666666666667,
+            "name": "Push",
             "parties": [
-                "Brad Pitt",
-                "Rob Corddry"
+                "Colin Ford",
+                "Colin Ford"
             ]
         },
         {
-            "date": 2010.8333333333333,
-            "name": "RED",
+            "date": 2012.3333333333333,
+            "name": "The Avengers",
             "parties": [
-                "Bruce Willis",
-                "Morgan Freeman"
-            ]
-        },
-        {
-            "date": 2011.1666666666667,
-            "name": "I Am Number Four",
-            "parties": [
-                "Teresa Palmer",
-                "Jake Abel"
-            ]
-        },
-        {
-            "date": 2012.5833333333333,
-            "name": "The Dark Knight Rises",
-            "parties": [
-                "Michael Caine",
-                "Tom Hardy",
-                "Joseph Gordon-Levitt",
-                "Morgan Freeman"
-            ]
-        },
-        {
-            "date": 2012.9166666666667,
-            "name": "The Hobbit: An Unexpected Journey",
-            "parties": [
-                "Ian McKellen",
-                "Andy Serkis",
-                "Elijah Wood"
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Tom Hiddleston",
+                "Clark Gregg",
+                "Cobie Smulders",
+                "Stellan Skarsg\u00e5rd"
             ]
         },
         {
             "date": 2011.4166666666667,
             "name": "X-Men: First Class",
             "parties": [
-                "Michael Fassbender",
-                "Jennifer Lawrence",
-                "Rose Byrne"
+                "Kevin Bacon"
             ]
         },
         {
             "date": 2011.5833333333333,
             "name": "Crazy, Stupid, Love.",
             "parties": [
+                "Steve Carell",
                 "Julianne Moore",
-                "Analeigh Tipton"
-            ]
-        },
-        {
-            "date": 2012.5,
-            "name": "Ice Age: Continental Drift",
-            "parties": [
-                "Seann William Scott"
-            ]
-        },
-        {
-            "date": 2012.1666666666667,
-            "name": "This Means War",
-            "parties": [
-                "Tom Hardy",
-                "Til Schweiger"
-            ]
-        },
-        {
-            "date": 2013.5,
-            "name": "Monsters University",
-            "parties": [
-                "John Goodman",
-                "Steve Buscemi"
-            ]
-        },
-        {
-            "date": 2013.4166666666667,
-            "name": "The Great Gatsby",
-            "parties": [
-                "Tobey Maguire"
+                "Ryan Gosling",
+                "Emma Stone",
+                "Marisa Tomei",
+                "Kevin Bacon",
+                "Analeigh Tipton",
+                "Jonah Bobo",
+                "Joey King",
+                "Steve Carell",
+                "Julianne Moore",
+                "Ryan Gosling",
+                "Emma Stone",
+                "Marisa Tomei",
+                "Kevin Bacon",
+                "Analeigh Tipton",
+                "Jonah Bobo",
+                "Joey King",
+                "Steve Carell",
+                "Julianne Moore",
+                "Ryan Gosling",
+                "Emma Stone",
+                "Marisa Tomei",
+                "Kevin Bacon",
+                "Analeigh Tipton",
+                "Jonah Bobo",
+                "Joey King",
+                "Steve Carell",
+                "Julianne Moore",
+                "Ryan Gosling",
+                "Emma Stone",
+                "Marisa Tomei",
+                "Kevin Bacon",
+                "Analeigh Tipton",
+                "Jonah Bobo",
+                "Joey King",
+                "Steve Carell",
+                "Julianne Moore",
+                "Ryan Gosling",
+                "Emma Stone",
+                "Marisa Tomei",
+                "Kevin Bacon",
+                "Analeigh Tipton",
+                "Jonah Bobo",
+                "Joey King"
             ]
         },
         {
             "date": 2011.0833333333333,
             "name": "Drive",
             "parties": [
-                "Oscar Isaac"
+                "Ryan Gosling",
+                "Ryan Gosling"
+            ]
+        },
+        {
+            "date": 2011.75,
+            "name": "Shark Night",
+            "parties": [
+                "Chris Zylka"
             ]
         },
         {
             "date": 2013,
             "name": "Django Unchained",
             "parties": [
-                "Christoph Waltz"
+                "Samuel L. Jackson"
+            ]
+        },
+        {
+            "date": 2013.3333333333333,
+            "name": "Iron Man 3",
+            "parties": [
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Don Cheadle",
+                "Ben Kingsley",
+                "Paul Bettany",
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Don Cheadle",
+                "Ben Kingsley",
+                "Paul Bettany",
+                "Robert Downey Jr.",
+                "Gwyneth Paltrow",
+                "Don Cheadle",
+                "Ben Kingsley",
+                "Paul Bettany"
             ]
         },
         {
             "date": 2013.25,
             "name": "Oz: The Great and Powerful",
             "parties": [
-                "James Franco"
+                "Joey King"
             ]
         },
         {
-            "date": 2012.8333333333333,
-            "name": "Argo",
+            "date": 2012.4166666666667,
+            "name": "Piranha 3DD",
             "parties": [
-                "John Goodman",
-                "Scoot McNairy"
+                "Chris Zylka"
             ]
         },
         {
-            "date": 2012.3333333333333,
-            "name": "American Reunion",
+            "date": 2012,
+            "name": "We Bought a Zoo",
             "parties": [
-                "Jason Biggs",
-                "Alyson Hannigan",
-                "Seann William Scott",
-                "Thomas Ian Nicholas",
-                "Tara Reid",
-                "Mena Suvari",
-                "Eddie Kaye Thomas"
-            ]
-        },
-        {
-            "date": 2013.5,
-            "name": "World War Z",
-            "parties": [
-                "Brad Pitt"
-            ]
-        },
-        {
-            "date": 2013.25,
-            "name": "The Host",
-            "parties": [
-                "Diane Kruger",
-                "Jake Abel"
-            ]
-        },
-        {
-            "date": 2013.4166666666667,
-            "name": "Now You See Me",
-            "parties": [
-                "Michael Caine",
-                "Morgan Freeman"
+                "Scarlett Johansson",
+                "Colin Ford"
             ]
         },
         {
             "date": 2013.8333333333333,
-            "name": "12 Years a Slave",
+            "name": "Thor: The Dark World",
             "parties": [
-                "Michael Fassbender",
-                "Lupita Nyong'o",
-                "Scoot McNairy",
-                "Brad Pitt"
+                "Chris Hemsworth",
+                "Tom Hiddleston"
             ]
         },
         {
-            "date": 2013.6666666666667,
-            "name": "Percy Jackson: Sea of Monsters",
+            "date": 2012.1666666666667,
+            "name": "Chronicle",
             "parties": [
-                "Jake Abel"
+                "Dane DeHaan"
             ]
         },
         {
             "date": 2013.0833333333333,
             "name": "Warm Bodies",
             "parties": [
-                "Teresa Palmer",
-                "Analeigh Tipton",
-                "Rob Corddry"
+                "Analeigh Tipton"
             ]
         },
         {
-            "date": 2014.4166666666667,
-            "name": "Maleficent",
+            "date": 2013.0833333333333,
+            "name": "Gangster Squad",
             "parties": [
-                "Miranda Richardson"
+                "Ryan Gosling",
+                "Emma Stone",
+                "Frank Grillo"
             ]
         },
         {
-            "date": 2014.1666666666667,
-            "name": "The Grand Budapest Hotel",
+            "date": 2012.9166666666667,
+            "name": "Life of Pi",
             "parties": [
-                "Willem Dafoe",
-                "Harvey Keitel"
+                "Irrfan Khan"
             ]
         },
         {
-            "date": 2014.9166666666667,
-            "name": "The Hunger Games: Mockingjay - Part 1",
+            "date": 2013.25,
+            "name": "The Place Beyond the Pines",
             "parties": [
-                "Jennifer Lawrence",
-                "Julianne Moore"
+                "Ryan Gosling",
+                "Dane DeHaan"
             ]
         },
         {
-            "date": 2015.9166666666667,
-            "name": "The Hunger Games: Mockingjay - Part 2",
+            "date": 2015.3333333333333,
+            "name": "Avengers: Age of Ultron",
             "parties": [
-                "Jennifer Lawrence",
-                "Julianne Moore"
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Samuel L. Jackson",
+                "Don Cheadle",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Samuel L. Jackson",
+                "Don Cheadle"
             ]
         },
         {
-            "date": 2013.3333333333333,
-            "name": "Pain & Gain",
+            "date": 2014.25,
+            "name": "Captain America: The Winter Soldier",
             "parties": [
-                "Rob Corddry"
+                "Scarlett Johansson",
+                "Samuel L. Jackson",
+                "Cobie Smulders",
+                "Frank Grillo",
+                "Scarlett Johansson",
+                "Samuel L. Jackson",
+                "Cobie Smulders",
+                "Frank Grillo"
+            ]
+        },
+        {
+            "date": 2014.3333333333333,
+            "name": "The Amazing Spider-Man 2",
+            "parties": [
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott",
+                "Andrew Garfield",
+                "Emma Stone",
+                "Dane DeHaan",
+                "Felicity Jones",
+                "Paul Giamatti",
+                "Sally Field",
+                "Embeth Davidtz",
+                "Campbell Scott"
+            ]
+        },
+        {
+            "date": 2012.75,
+            "name": "Disconnect",
+            "parties": [
+                "Frank Grillo",
+                "Andrea Riseborough",
+                "Jonah Bobo",
+                "Colin Ford"
+            ]
+        },
+        {
+            "date": 2015.5,
+            "name": "Jurassic World",
+            "parties": [
+                "Irrfan Khan"
+            ]
+        },
+        {
+            "date": 2013.5833333333333,
+            "name": "The Conjuring",
+            "parties": [
+                "Joey King"
             ]
         },
         {
@@ -714,79 +804,70 @@ var bacon = {
                 "Harrison Ford",
                 "Mark Hamill",
                 "Carrie Fisher",
-                "Oscar Isaac",
-                "Lupita Nyong'o",
-                "Andy Serkis",
-                "Domhnall Gleeson"
+                "Harrison Ford",
+                "Mark Hamill",
+                "Carrie Fisher",
+                "Harrison Ford",
+                "Mark Hamill",
+                "Carrie Fisher"
             ]
         },
         {
-            "date": 2015.8333333333333,
-            "name": "Spectre",
+            "date": 2014.8333333333333,
+            "name": "Birdman",
             "parties": [
-                "Christoph Waltz"
+                "Emma Stone",
+                "Andrea Riseborough",
+                "Emma Stone",
+                "Andrea Riseborough"
             ]
         },
         {
-            "date": 2016.25,
-            "name": "Batman v Superman: Dawn of Justice",
+            "date": 2016.8333333333333,
+            "name": "Inferno",
             "parties": [
-                "Scoot McNairy"
-            ]
-        },
-        {
-            "date": 2015.5,
-            "name": "Minions",
-            "parties": [
-                "Allison Janney"
-            ]
-        },
-        {
-            "date": 2014.0833333333333,
-            "name": "Non-Stop",
-            "parties": [
-                "Julianne Moore",
-                "Scoot McNairy",
-                "Lupita Nyong'o"
-            ]
-        },
-        {
-            "date": 2015.4166666666667,
-            "name": "Spy",
-            "parties": [
-                "Rose Byrne",
-                "Allison Janney"
+                "Tom Hanks",
+                "Felicity Jones",
+                "Irrfan Khan"
             ]
         },
         {
             "date": 2014.5833333333333,
             "name": "Lucy",
             "parties": [
-                "Morgan Freeman",
+                "Scarlett Johansson",
                 "Analeigh Tipton"
             ]
         },
         {
-            "date": 2015.0833333333333,
-            "name": "Ex Machina",
+            "date": 2014.9166666666667,
+            "name": "The Theory of Everything",
             "parties": [
-                "Domhnall Gleeson",
-                "Oscar Isaac"
+                "Felicity Jones"
             ]
         },
         {
-            "date": 2016.6666666666667,
-            "name": "Ben-Hur",
+            "date": 2016.3333333333333,
+            "name": "Captain America: Civil War",
             "parties": [
-                "Morgan Freeman"
+                "Robert Downey Jr.",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Paul Bettany",
+                "Don Cheadle",
+                "Robert Downey Jr.",
+                "Scarlett Johansson",
+                "Jeremy Renner",
+                "Paul Bettany",
+                "Don Cheadle"
             ]
         },
         {
             "date": 2016,
-            "name": "The Revenant",
+            "name": "The Big Short",
             "parties": [
-                "Tom Hardy",
-                "Domhnall Gleeson"
+                "Steve Carell",
+                "Ryan Gosling"
             ]
         }
     ]

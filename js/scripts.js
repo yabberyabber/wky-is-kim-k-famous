@@ -73,7 +73,7 @@ var Chart = function( width, height ) {
         chart.select( ".person_axis" )
              .call( personAxis )
              .selectAll( "text" )
-                .attr( "transform", "rotate(-30)" )
+                .attr( "transform", "rotate(-45)" )
                 .style( 'text-anchor', 'start' )
                 .attr( 'x', 12 )
                 .attr( 'y', -12 );
@@ -109,7 +109,10 @@ var Chart = function( width, height ) {
             .attr( 'width', Math.min( personScale.rangeBand(), 20 ) );
 
         var getRelColor = function( idx ) {
-            var colors = [ 'yellow', 'green', 'red', 'blue', 'orange', 'purple' ];
+            var colors = [
+                '#ff0000', '#e59173', '#cad900', '#bfbfbf', '#005c73', '#a200f2',
+                '#e50000', '#ff6600', '#b2ff80', '#666666', '#001b33', '#bf30b6'
+            ];
             return colors[ idx % colors.length ];
         };
 
@@ -192,7 +195,7 @@ var Chart = function( width, height ) {
 
 var chart;
 $(document).ready(function() {
-    chart = new Chart( 1500, 1200 )
+    chart = new Chart( 1500, 1500 )
         .updateData( bacon );
 
     d3.select( "#dataset-select" )
