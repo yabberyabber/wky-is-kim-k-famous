@@ -18,6 +18,9 @@ var Chart = function( width, height ) {
                    "translate(" + margin.left + "," +
                                margin.top + ")" );
 
+    var backLayer = chart.append( 'g' );
+    var frontLayer = chart.append( 'g' );
+
     var timeScale = d3.scale.linear()
                       .domain( [ time.start, time.end ] )
                       .range( [ 0, height ] );
@@ -25,15 +28,14 @@ var Chart = function( width, height ) {
                      .scale( timeScale )
                      .tickFormat( d3.format( "   0" ) )
                      .orient( 'left' );
-    chart.append( "g" )
+    backLayer.append( "g" )
         .attr( 'class', 'time_axis' )
         .call( timeAxis );
-    chart.append( 'text' )
+    backLayer.append( 'text' )
         .attr( 'x',  - width / 2 )
         .attr( 'y', 10 - margin.left / 2 )
         .attr( 'font-size', '50px' )
-        .attr( 'text-anchor', 'middle' )
-        .attr( 'class', 'personLabel' )
+        .attr( 'class', 'yearLabel axisLabel' )
         .attr( 'transform', 'rotate(-90)' )
         .text( 'Year of Event' );
 
@@ -43,19 +45,18 @@ var Chart = function( width, height ) {
     var personAxis = d3.svg.axis()
                        .scale( personScale )
                        .orient( 'bottom' );
-    chart.append( "g" )
+    backLayer.append( "g" )
             .attr( 'class', 'person_axis' )
             .call( personAxis )
          .selectAll( "text" )
             .attr( "transform", "rotate(90)" )
             .style( 'text-anchor', 'end' )
             .attr( 'x', -9 );
-    chart.append( 'text' )
+    backLayer.append( 'text' )
         .attr( 'x', width / 2 )
         .attr( 'y', 75 - margin.top )
         .attr( 'font-size', '50px' )
-        .attr( 'text-anchor', 'middle' )
-        .attr( 'class', 'xAxisLabel' )
+        .attr( 'class', 'personLabel axisLabel' )
         .text( 'Person of Interest' );
 
     var personTip = d3.tip()
@@ -70,7 +71,7 @@ var Chart = function( width, height ) {
                                     return person.name;
                                 } ) )
                    .rangeRoundBands( [ 0, width ], 0.1 );
-        chart.select( ".person_axis" )
+        backLayer.select( ".person_axis" )
              .call( personAxis )
              .selectAll( "text" )
                 .attr( "transform", "rotate(-45)" )
@@ -78,7 +79,7 @@ var Chart = function( width, height ) {
                 .attr( 'x', 12 )
                 .attr( 'y', -12 );
 
-        var people = chart.selectAll( "rect.person" )
+        var people = backLayer.selectAll( "rect.person" )
             .data( dataset.people );
         var personBarXFunction = function( person ) {
             return personScale( person.name ) + personScale.rangeBand() / 2 - 10;
@@ -122,7 +123,7 @@ var Chart = function( width, height ) {
                 return circle.rel.name;
             });
 
-        var relations = chart.selectAll( "g.relation" )
+        var relations = frontLayer.selectAll( "g.relation" )
             .data( dataset.relations );
         var relationTransformFunction = function( rel ) {
             return 'translate(' + 
@@ -157,7 +158,7 @@ var Chart = function( width, height ) {
                 .on( 'mouseover', relTip.show )
                 .on( 'mouseout', relTip.hide );
         relCircles.call( relTip );
-        relCircles.transition().delay( 500 )
+        relCircles.transition()
             .attr( 'cx', relCirclesCXFunction )
             .attr( 'fill', relCirclesFillFunction );
         relCircles.exit().remove();
