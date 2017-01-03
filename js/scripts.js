@@ -178,11 +178,11 @@ var Chart = function( width, height ) {
         };
         relLines.enter()
             .append( 'line' )
+                .attr( 'class', 'relHorizontal' )
                 .style( 'stroke', relLinesStrokeColorFunction )
                 .attr( 'x1', relLinesX1Function )
                 .attr( 'x2', relLinesX2Function );
-        relLines.transition().delay( 500 )
-            .style( 'stroke', relLinesStrokeColorFunction )
+        relLines.transition()
             .attr( 'x1', relLinesX1Function )
             .attr( 'x2', relLinesX2Function );
         relLines.exit().remove();
