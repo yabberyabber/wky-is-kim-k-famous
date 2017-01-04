@@ -1,9 +1,4 @@
 var Chart = function( width, height ) {
-    if ( width === undefined )
-        width = 400;
-    if ( height === undefined )
-        height = 600;
-
     var margin = { top: 250, right: 30, bottom: 30, left: 200 };
     width = width - margin.left - margin.right;
     height = height - margin.top - margin.bottom;
@@ -195,14 +190,23 @@ var Chart = function( width, height ) {
 };
 
 var chart;
+var userInput;
+
+var updateData = ( dataset ) => {
+    chart.updateData( datasets );
+    //userInput.updateData( datasets );
+};
+
 $(document).ready(function() {
     chart = new Chart( 1500, 1500 )
-        .updateData( bacon );
+        .updateData( kim );
+    //userInput = new UserInput( chart );
+    //userInput.updateData( bacon );
 
     d3.select( "#dataset-select" )
         .on( 'change', function() {
             var selection = d3.select( this ).property( 'value' );
             console.log( selection );
-            chart.updateData( datasets[ selection ] );
+            updateData( datasets[ selection ] );
         } );
 });
