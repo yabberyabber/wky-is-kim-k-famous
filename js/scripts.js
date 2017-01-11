@@ -207,6 +207,6 @@ $(document).ready(function() {
         .on( 'change', function() {
             var selection = d3.select( this ).property( 'value' );
             console.log( selection );
-            updateData( datasets[ selection ] );
+            chart.updateData( datasets[ selection ] );
         } );
 });

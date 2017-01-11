@@ -35,6 +35,36 @@ var kim = {
             'name': 'Kris Jenner',
             'born': 1955,
             "summary": "Kim's mom and Caitlyn's/Robert's ex-wife"
+        },
+        {
+            'name': 'Lindsay Lohan',
+            'born': 1986,
+            'summary': 'Child actor made famous by her role in the Parent Trap, Freaky Friday, and Mean Girls.  Became a central figure in the 2007 holleywood party scene'
+        },
+        {
+            'name': 'Britney Spears',
+            'born': 1981,
+            'summary': "It's Britney, bitch"
+        },
+        {
+            'name': 'Justin Timberlake',
+            'born': 1981,
+            'summary': "Pop artist perhaps most famous for dating Britney Spears in the early 2000's"
+        },
+        {
+            'name': 'Christina Aguilera',
+            'born': 1980,
+            'summary': "Child star turned popular pop artist in the early 2000's"
+        },
+        {
+            'name': 'Madonna',
+            'born': 1958,
+            'summary': 'Archetype for the modern female pop diva'
+        },
+        {
+            'name': 'Ryan Gosling',
+            'born': 1980,
+            'summary': 'He is really hot'
         }
     ],
     relations: [
@@ -94,6 +124,21 @@ var kim = {
             'date': 2003,
             'parties': [ 'Kim', 'Ray J' ],
             'name': 'Sex Tape'
+        },
+        {
+            'date': 2006.8,
+            'parties': [ 'Paris Hilton', 'Lindsay Lohan', 'Britney Spears' ],
+            'name': '"It\'s the intersection of three famous breakdowns" - Don Golinveaux <img src="https://i.ytimg.com/vi/zbsZ37UdClQ/hqdefault.jpg" />'
+        },
+        {
+            'date': 1991,
+            'parties': [ 'Britney Spears', 'Christina Aguilera', 'Justin Timberlake' ],
+            'name': 'Appeared on Star Search: a popular television series that was a competition between aspiring child stars.  Britney Spears came in second and Christina was eliminated during semi-finals.  Justin Timberlake was eliminated early on.'
+        },
+        {
+            'date': 1992,
+            'parties': [ 'Britney Spears', 'Justin Timberlake', 'Christina Aguilera', 'Ryan Gosling' ],
+            'name': "Appear on Disney Channel's Micky Mouse Club, a popular children's show.<img src='http://vignette2.wikia.nocookie.net/disney/images/7/7d/Tumblr_lkixsbMFUe1qa3uizo1_400.gif/revision/latest?cb=20140901161608'>"
         }
     ]
 };
