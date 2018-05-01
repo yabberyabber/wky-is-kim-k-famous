@@ -52,7 +52,7 @@ var Chart = function( width, height ) {
         .attr( 'y', 75 - margin.top )
         .attr( 'font-size', '50px' )
         .attr( 'class', 'personLabel axisLabel' )
-        .text( 'Person of Interest' );
+        .text( 'Entity of Interest' );
 
     var personTip = d3.tip()
         .attr( 'class', 'd3-tip' )
@@ -73,6 +73,21 @@ var Chart = function( width, height ) {
                 .style( 'text-anchor', 'start' )
                 .attr( 'x', 12 )
                 .attr( 'y', -12 );
+
+        console.log( dataset );
+        var earliest_date = 1930;
+        for ( var person in dataset.people ) {
+            if ( dataset.people[ person ].born < earliest_date ) {
+                earliest_date = dataset.people[ person ].born;
+            }
+        }
+        time = { start: earliest_date, end: 2020 };
+        timeScale.domain( [ time.start, time.end ] )
+                      .range( [ 0, height ] );
+        timeAxis.scale( timeScale ).tickFormat( d3.format( "   0" ) )
+
+        backLayer.select( ".time_axis" )
+            .call( timeAxis );
 
         var people = backLayer.selectAll( "rect.person" )
             .data( dataset.people );
