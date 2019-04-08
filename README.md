@@ -10,4 +10,6 @@ Check it out here https://yabberyabber.github.io/wky-is-kim-k-famous/
 
 I skimmed through a couple dozen d3 tutorials and Perez Hilton articles. The data used to generate the graph is in js/dataset.js.  At the moment you need to write json by hand to add data... I don't have any immediate plans to change that.  
 
-I have no artistic abilities.  I can tell it's ugly.  Contact me if you have stylistic advice. Pull requests welcome.
+# Why it was made
+
+I had just gotten my wisdom teeth taken out and the pain meds put me in a strange mood.  
